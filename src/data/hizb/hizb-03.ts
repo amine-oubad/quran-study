@@ -14,15 +14,27 @@ import type { Hizb } from '../types';
 
 export const hizb03: Hizb = {
   number: 3,
-  title: `Hizb 3 — Al-Baqara (البقرة)`,
+  title: `Hizb 3 — Le changement de qibla, les épreuves et les prescriptions fondamentales`,
   surahsCovered: ["Al-Baqara (142-202)"],
-  context: `Ce hizb couvre Al-Baqara, versets 142 à 202. Al-Baqara : médinoise — Guidance, législation, récits des Fils d'Israël, loi islamique.`,
-  linkWithPrevious: `Ce hizb (n°3) fait suite au hizb 2. Il s'inscrit dans la progression thématique du Coran.`,
+  context: `Ce hizb marque un tournant décisif : le changement de qibla de Jérusalem vers la Ka'ba, établissant l'identité propre de la communauté musulmane. Puis viennent les grandes épreuves et la patience (sabr), suivies des prescriptions fondamentales de l'islam : le jeûne du Ramadan, le Hajj, le qisas, le combat dans le sentier d'Allah et la définition complète de la piété (birr). C'est un passage législatif dense qui pose les bases pratiques de la vie du musulman.`,
+  linkWithPrevious: `Le hizb 2 se terminait par l'affirmation de l'héritage d'Ibrahim et la construction de la Ka'ba (2:127-141). Ce hizb enchaîne logiquement avec le changement de qibla vers cette même Ka'ba, puis déploie les grandes prescriptions de la nouvelle communauté.`,
   passageAnalysis: [
     {
-      title: `Al-Baqara — versets 142 à 202`,
-      content: `Al-Baqara est une sourate médinoise. Thème principal : Guidance, législation, récits des Fils d'Israël, loi islamique. Commentaire détaillé à venir, insha'Allah.`,
-    }
+      title: `Le changement de qibla et l'identité musulmane (2:142-152)`,
+      content: `Moment charnière de la période médinoise : Allah ordonne au Prophète ﷺ de se tourner vers la Ka'ba au lieu de Jérusalem. Ce changement provoque les moqueries des « faibles d'esprit » mais établit la communauté musulmane comme « ummatan wasatan » (communauté du juste milieu). Le passage rassure aussi sur le sort des prières accomplies vers l'ancienne qibla.`,
+    },
+    {
+      title: `Les épreuves, la patience et les signes d'Allah (2:153-167)`,
+      content: `Après l'identité vient l'épreuve : Allah annonce que les croyants seront testés par la peur, la faim, la perte de biens et de vies. La réponse prescrite est le sabr (patience) et la prière. Puis viennent les signes d'Allah dans la création, la légitimité de Safa et Marwa, et la condamnation de ceux qui dissimulent les signes clairs.`,
+    },
+    {
+      title: `Licite, illicite et piété véritable (2:168-188)`,
+      content: `Bloc législatif dense : nourriture licite/illicite, interdiction de suivre les pas de Shaytan, puis la grande définition de la piété (al-birr, 2:177) qui synthétise foi, actes et morale. Suivent les lois du qisas (talion), du testament, et surtout le jeûne du Ramadan (2:183-187) avec ses règles détaillées. Le verset 2:186 sur la proximité d'Allah est un joyau de spiritualité au milieu de ces prescriptions.`,
+    },
+    {
+      title: `Le Hajj et le combat dans le sentier d'Allah (2:189-202)`,
+      content: `Les premières règles du combat (jihad) sont posées avec leurs limites éthiques (ne pas transgresser, 2:190). Puis viennent les rites du Hajj (2:196-200) et l'invocation célèbre « Rabbana atina fid-dunya hasanatan... » (2:201). Le hizb se clôt sur le rappel que chacun récoltera ce qu'il a acquis.`,
+    },
   ],
   verses: [
     {
@@ -34,6 +46,11 @@ export const hizb03: Hizb = {
       textArabic: `۞ سَيَقُولُ ٱلسُّفَهَآءُ مِنَ ٱلنَّاسِ مَا وَلَّىٰهُمْ عَن قِبْلَتِهِمُ ٱلَّتِى كَانُوا۟ عَلَيْهَا ۚ قُل لِّلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ يَهْدِى مَن يَشَآءُ إِلَىٰ صِرَٰطٍۢ مُّسْتَقِيمٍۢ`,
       textFrench: `Les faibles d'esprit parmi les gens vont dire: «Qui les a détournés de la direction (Qibla) vers laquelle ils s'orientaient auparavant?» - Dis: «C'est à Allah qu'appartiennent le Levant et le Couchant. Il guide qui Il veut vers un droit chemin».`,
       transliteration: `Sayaqoolus sufahaaa'u minan naasi maa wallaahum 'an Qiblatihimul latee kaanoo 'alaihaa; qulo lillaahil mashriqu walmaghrib; yahdee mai yashaaa'u ilaa Siraatim Mustaqeem`,
+      commentary: {
+        context: "Introduction au changement de qibla : les moqueurs questionnent ce changement de direction. Allah répond que l'Orient et l'Occident Lui appartiennent et qu'Il guide qui Il veut.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -44,6 +61,25 @@ export const hizb03: Hizb = {
       textArabic: `وَكَذَٰلِكَ جَعَلْنَٰكُمْ أُمَّةًۭ وَسَطًۭا لِّتَكُونُوا۟ شُهَدَآءَ عَلَى ٱلنَّاسِ وَيَكُونَ ٱلرَّسُولُ عَلَيْكُمْ شَهِيدًۭا ۗ وَمَا جَعَلْنَا ٱلْقِبْلَةَ ٱلَّتِى كُنتَ عَلَيْهَآ إِلَّا لِنَعْلَمَ مَن يَتَّبِعُ ٱلرَّسُولَ مِمَّن يَنقَلِبُ عَلَىٰ عَقِبَيْهِ ۚ وَإِن كَانَتْ لَكَبِيرَةً إِلَّا عَلَى ٱلَّذِينَ هَدَى ٱللَّهُ ۗ وَمَا كَانَ ٱللَّهُ لِيُضِيعَ إِيمَٰنَكُمْ ۚ إِنَّ ٱللَّهَ بِٱلنَّاسِ لَرَءُوفٌۭ رَّحِيمٌۭ`,
       textFrench: `Et aussi Nous avons fait de vous une communauté de justes pour que vous soyez témoins aux gens, comme le Messager sera témoin à vous. Et Nous n'avions établi la direction (Qibla) vers laquelle tu te tournais que pour savoir qui suit le Messager [Muhammad] et qui s'en retourne sur ses talons. C'était un changement difficile, mais pas pour ceux qu'Allah guide. Et ce n'est pas Allah qui vous fera perdre [la récompense de] votre foi, car Allah, certes est Compatissant et Miséricordieux pour les hommes.`,
       transliteration: `Wa kazaalika ja'alnaakum ummatanw wasatal litakoonoo shuhadaaa'a 'alan naasi wa yakoonar Rasoolu 'alaikum shaheedaa; wa maa ja'alnal qiblatal latee kunta 'alaihaaa illaa lina'lama mai yattabi'ur Rasoola mimmai yanqalibu 'alaa 'aqibayh; wa in kaanat lakabeeratan illaa 'alal lazeena hadal laah; wa maa kaanal laahu liyudee'a eemaanakum; innal laaha binnaasi la Ra'oofur Raheem`,
+      commentary: {
+        context: "Verset fondateur définissant la communauté musulmane comme « ummatan wasatan » (communauté du juste milieu), témoins sur l'humanité. Le changement de qibla servait de test pour distinguer les vrais suiveurs du Prophète ﷺ.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "La communauté musulmane est médiane entre l'excès et le laxisme, juste et équilibrée en croyance et en pratique. Elle ne tombe ni dans l'exagération des chrétiens ni dans le relâchement des juifs. Cette position médiane fait d'elle la meilleure communauté, apte à témoigner sur les autres peuples le Jour du Jugement.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 143",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Le Prophète ﷺ a expliqué que « al-wasat » signifie « al-'adl » (la justice), comme rapporté par al-Bukhari. Le changement de qibla était une épreuve divine pour distinguer ceux qui suivent véritablement le Messager de ceux qui retournent sur leurs talons. Allah rassure aussi que les prières accomplies vers l'ancienne qibla ne sont pas perdues.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 143",
+          },
+        ],
+        nuances: [
+          "Le terme « wasat » en arabe porte les sens de milieu, excellence et justice — la communauté est à la fois médiane et la meilleure.",
+          "« Wa ma kana Allahu liyudi'a imanakum » : le mot « iman » ici désigne les prières, confirmant que la prière fait partie intégrante de la foi.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -54,6 +90,25 @@ export const hizb03: Hizb = {
       textArabic: `قَدْ نَرَىٰ تَقَلُّبَ وَجْهِكَ فِى ٱلسَّمَآءِ ۖ فَلَنُوَلِّيَنَّكَ قِبْلَةًۭ تَرْضَىٰهَا ۚ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ ۗ وَإِنَّ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ لَيَعْلَمُونَ أَنَّهُ ٱلْحَقُّ مِن رَّبِّهِمْ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا يَعْمَلُونَ`,
       textFrench: `Certes nous te voyons tourner le visage en tous sens dans le ciel. Nous te faisons donc orienter vers une direction qui te plaît. Tourne donc ton visage vers la Mosquée sacrée. Où que vous soyez, tournez-y vos visages. Certes, ceux à qui le Livre a été donné savent bien que c'est la vérité venue de leur Seigneur. Et Allah n'est pas inattentif à ce qu'ils font.`,
       transliteration: `Qad naraa taqalluba wajhika fis samaaa'i fala nuwalliyannaka qiblatan tardaahaa; fawalli wajhaka shatral Masjidil haaraam; wa haisu maa kuntum fawalloo wujoohakum shatrah; wa innal lazeena ootul Kitaaba laya'lamoona annahul haqqu mir Rabbihim; wa mal laahu bighaafilin 'ammaa ya'maloon`,
+      commentary: {
+        context: "L'ordre divin du changement de qibla vers la Mosquée sacrée (Ka'ba). Le Prophète ﷺ levait les yeux au ciel espérant cette révélation. Allah lui accorde une direction qui le satisfait, confirmant son attachement à la Ka'ba d'Ibrahim.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Le Prophète ﷺ levait les yeux au ciel espérant qu'Allah lui ordonne de se tourner vers la Ka'ba, car il aimait la qibla d'Ibrahim. Allah lui accorda ce qu'il désirait : « Nous te faisons orienter vers une direction qui te plaît ». Cela montre l'honneur d'Allah envers Son Prophète et Sa bienveillance envers lui.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 144",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Le Prophète ﷺ priait en direction de Jérusalem (Bayt al-Maqdis) depuis son arrivée à Médine pendant environ 16 à 17 mois. Il souhaitait ardemment se tourner vers la Ka'ba. Allah exauça son souhait et lui ordonna de se diriger vers la Mosquée sacrée. Les Gens du Livre savaient que ce changement était la vérité venant de leur Seigneur.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 144",
+          },
+        ],
+        nuances: [
+          "Le Prophète ﷺ n'a pas demandé explicitement le changement mais levait le regard vers le ciel, montrant son adab (bienséance) envers Allah en attendant la révélation.",
+          "L'expression « où que vous soyez, tournez-y vos visages » établit l'universalité de cette qibla pour tous les musulmans en tout lieu.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -64,6 +119,11 @@ export const hizb03: Hizb = {
       textArabic: `وَلَئِنْ أَتَيْتَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ بِكُلِّ ءَايَةٍۢ مَّا تَبِعُوا۟ قِبْلَتَكَ ۚ وَمَآ أَنتَ بِتَابِعٍۢ قِبْلَتَهُمْ ۚ وَمَا بَعْضُهُم بِتَابِعٍۢ قِبْلَةَ بَعْضٍۢ ۚ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم مِّنۢ بَعْدِ مَا جَآءَكَ مِنَ ٱلْعِلْمِ ۙ إِنَّكَ إِذًۭا لَّمِنَ ٱلظَّٰلِمِينَ`,
       textFrench: `Certes si tu apportais toutes les preuves à ceux à qui le Livre a été donné, ils ne suivraient pas ta direction (Qibla)! Et tu ne suivras pas la leur; et entre eux, les uns ne suivent pas la direction des autres. Et si tu suivais leurs passions après ce que tu as reçu de science, tu serais, certes, du nombre des injustes.`,
       transliteration: `Wa la'in ataital lazeena ootul kitaaba bikulli aayatim maa tabi'oo Qiblatak; wa maaa anta bitaabi'in Qiblatahum; wa maa ba'duhum bitaabi''in Qiblata ba'd; wa la'init taba'ta ahwaaa;ahum mim ba'di maa jaaa'aka minal 'ilmi innaka izal laminaz zaalimeen`,
+      commentary: {
+        context: "Les Gens du Livre ne suivront jamais la qibla du Prophète ﷺ, et lui ne suivra pas la leur. Avertissement contre le fait de suivre les passions après avoir reçu la science.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -74,6 +134,11 @@ export const hizb03: Hizb = {
       textArabic: `ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَعْرِفُونَهُۥ كَمَا يَعْرِفُونَ أَبْنَآءَهُمْ ۖ وَإِنَّ فَرِيقًۭا مِّنْهُمْ لَيَكْتُمُونَ ٱلْحَقَّ وَهُمْ يَعْلَمُونَ`,
       textFrench: `Ceux à qui Nous avons donné le Livre, le reconnaissent comme ils reconnaissent leurs enfants. Or une partie d'entre eux cache la vérité, alors qu'ils la savent!`,
       transliteration: `Allazeena aatainaahumul kitaaba ya'rifoonahoo kamaa ya'rifoona abnaaa'ahum wa inna fareeqam minhum layaktumoonal haqqa wa hum ya'lamoon`,
+      commentary: {
+        context: "Les Gens du Livre reconnaissent le Prophète ﷺ comme ils reconnaissent leurs propres enfants, mais une partie d'entre eux dissimule sciemment la vérité.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -84,6 +149,11 @@ export const hizb03: Hizb = {
       textArabic: `ٱلْحَقُّ مِن رَّبِّكَ ۖ فَلَا تَكُونَنَّ مِنَ ٱلْمُمْتَرِينَ`,
       textFrench: `La vérité vient de ton Seigneur. Ne sois donc pas de ceux qui doutent.`,
       transliteration: `Alhaqqu mir Rabbika falaa takoonana minal mumtareen`,
+      commentary: {
+        context: "Affirmation concise : la vérité vient du Seigneur. Interdiction de douter, renforçant la certitude face aux contestations sur le changement de qibla.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -94,6 +164,11 @@ export const hizb03: Hizb = {
       textArabic: `وَلِكُلٍّۢ وِجْهَةٌ هُوَ مُوَلِّيهَا ۖ فَٱسْتَبِقُوا۟ ٱلْخَيْرَٰتِ ۚ أَيْنَ مَا تَكُونُوا۟ يَأْتِ بِكُمُ ٱللَّهُ جَمِيعًا ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ`,
       textFrench: `A chacun une orientation vers laquelle il se tourne. Rivalisez donc dans les bonnes œuvres. Où que vous soyez, Allah vous ramènera tous vers Lui, car Allah est, certes Omnipotent.`,
       transliteration: `Wa likullinw wijhatun huwa muwalleehaa fastabiqul khairaat; ayna maa takoonoo yaati bikumullaahu jamee'aa; innal laaha 'alaa kulli shai'in qadeer`,
+      commentary: {
+        context: "Appel à la compétition dans le bien plutôt qu'au débat sur les directions. Chacun a une orientation ; l'essentiel est de rivaliser dans les bonnes oeuvres.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -104,6 +179,11 @@ export const hizb03: Hizb = {
       textArabic: `وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۖ وَإِنَّهُۥ لَلْحَقُّ مِن رَّبِّكَ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ`,
       textFrench: `Et d'où que tu sortes, tourne ton visage vers la Mosquée sacrée. Oui voilà bien la vérité venant de ton Seigneur. Et Allah n'est pas inattentif à ce que vous faites.`,
       transliteration: `Wa min haisu kharajta fawalli wajhaka shatral Masjidil Haraami wa innahoo lalhaqqu mir Rabbik; wa mallaahu bighaafilin 'ammaa ta'maloon`,
+      commentary: {
+        context: "Réaffirmation de l'ordre de se tourner vers la Mosquée sacrée d'où que l'on sorte. Insistance sur la vérité de cette direction venant du Seigneur.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -114,6 +194,11 @@ export const hizb03: Hizb = {
       textArabic: `وَمِنْ حَيْثُ خَرَجْتَ فَوَلِّ وَجْهَكَ شَطْرَ ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَحَيْثُ مَا كُنتُمْ فَوَلُّوا۟ وُجُوهَكُمْ شَطْرَهُۥ لِئَلَّا يَكُونَ لِلنَّاسِ عَلَيْكُمْ حُجَّةٌ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ فَلَا تَخْشَوْهُمْ وَٱخْشَوْنِى وَلِأُتِمَّ نِعْمَتِى عَلَيْكُمْ وَلَعَلَّكُمْ تَهْتَدُونَ`,
       textFrench: `Et d'où que tu sortes, tourne ton visage vers la Mosquée sacrée. Et où que vous soyez, tournez-y vos visages, afin que les gens n'aient pas d'argument contre vous, sauf ceux d'entre eux qui sont de vrais injustes. Ne les craignez donc pas; mais craignez-Moi pour que Je parachève Mon bienfait à votre égard, et que vous soyez bien guidés!`,
       transliteration: `Wa min haisu kharajta fawalli wajhaka shatral Masjidil Haraam; wa haisu maa kuntum fawalloo wujoohakum shatrahoo li'allaa yakoona linnaasi 'alaikum hujjatun illal lazeena zalamoo minhum falaa takhshawhum wakhshawnee wa liutimma ni'matee 'alaikum wa la'allakum tahtadoon`,
+      commentary: {
+        context: "Troisième rappel de se tourner vers la Mosquée sacrée, pour couper tout argument des adversaires. Ordre de ne craindre qu'Allah seul et promesse de parachèvement du bienfait divin.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -124,6 +209,11 @@ export const hizb03: Hizb = {
       textArabic: `كَمَآ أَرْسَلْنَا فِيكُمْ رَسُولًۭا مِّنكُمْ يَتْلُوا۟ عَلَيْكُمْ ءَايَٰتِنَا وَيُزَكِّيكُمْ وَيُعَلِّمُكُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَيُعَلِّمُكُم مَّا لَمْ تَكُونُوا۟ تَعْلَمُونَ`,
       textFrench: `Ainsi, Nous avons envoyé parmi vous un messager de chez vous qui vous récite Nos versets, vous purifie, vous enseigne le Livre et la Sagesse et vous enseigne ce que vous ne saviez pas.`,
       transliteration: `kamaaa arsalnaa feekum Rasoolam minkum yatloo 'alaikum aayaatina wa yuzakkeekum wa yu'alli mukumul kitaaba wal hikmata wa yu'allimukum maa lam takoonoo ta'lamoon`,
+      commentary: {
+        context: "Rappel du bienfait de l'envoi du Messager ﷺ : il récite les versets, purifie les âmes, enseigne le Livre et la Sagesse. Réponse à l'invocation d'Ibrahim en 2:129.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -134,6 +224,20 @@ export const hizb03: Hizb = {
       textArabic: `فَٱذْكُرُونِىٓ أَذْكُرْكُمْ وَٱشْكُرُوا۟ لِى وَلَا تَكْفُرُونِ`,
       textFrench: `Souvenez-vous de Moi donc. Je vous récompenserai. Remerciez-Moi et ne soyez pas ingrats envers Moi!`,
       transliteration: `Fazkurooneee azkurkum washkuroo lee wa laa takfuroon`,
+      commentary: {
+        context: "Verset majeur sur le dhikr (rappel d'Allah) : une promesse réciproque unique — « Souvenez-vous de Moi, Je me souviendrai de vous ». Suivi de l'ordre de gratitude et de l'interdiction de l'ingratitude.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Le dhikr d'Allah englobe toutes les formes d'adoration : la prière, la récitation du Coran, l'invocation, l'apprentissage de la science religieuse et la méditation. La promesse qu'Allah mentionne Son serviteur en retour est le plus grand honneur que puisse recevoir un croyant. Le dhikr du coeur, de la langue et des membres sont tous inclus dans ce commandement divin.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 152",
+          },
+        ],
+        nuances: [
+          "La réciprocité « udhkuruni adhkurkum » est un honneur immense : le Créateur de l'univers promet de Se souvenir de celui qui se souvient de Lui.",
+          "Le verset lie dhikr et shukr (gratitude), montrant que le rappel d'Allah et la reconnaissance sont les deux piliers de la relation serviteur-Seigneur.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -144,6 +248,20 @@ export const hizb03: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ ٱسْتَعِينُوا۟ بِٱلصَّبْرِ وَٱلصَّلَوٰةِ ۚ إِنَّ ٱللَّهَ مَعَ ٱلصَّٰبِرِينَ`,
       textFrench: `O les croyants! Cherchez secours dans l'endurance et la Salât. Car Allah est avec ceux qui sont endurants.`,
       transliteration: `Yaaa ayyuhal laazeena aamanus ta'eenoo bissabri was Salaah; innal laaha ma'as-saabireen`,
+      commentary: {
+        context: "Ordre fondamental aux croyants de chercher secours dans la patience (sabr) et la prière (salat) face aux épreuves. Allah affirme Sa compagnie spéciale avec les patients — une promesse d'aide et de soutien divins.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Allah prescrit deux grandes aides face aux difficultés de la vie : la patience (sabr) qui consiste à endurer ce qui est pénible tout en s'abstenant des interdits, et la prière (salat) qui est le lien entre le serviteur et son Seigneur. La compagnie d'Allah avec les patients (ma'iyyah khassah) signifie Son aide, Son soutien et Sa guidée spécifiques — pas une simple présence mais un accompagnement actif.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 153",
+          },
+        ],
+        nuances: [
+          "La « ma'iyyah » (compagnie) d'Allah avec les patients est une compagnie spéciale (khassah) impliquant aide et soutien, distincte de la compagnie générale de science et d'observation.",
+          "Le sabr précède la salat dans l'ordre du verset car la patience est nécessaire pour accomplir correctement la prière elle-même.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -154,6 +272,11 @@ export const hizb03: Hizb = {
       textArabic: `وَلَا تَقُولُوا۟ لِمَن يُقْتَلُ فِى سَبِيلِ ٱللَّهِ أَمْوَٰتٌۢ ۚ بَلْ أَحْيَآءٌۭ وَلَٰكِن لَّا تَشْعُرُونَ`,
       textFrench: `Et ne dites pas de ceux qui sont tués dans le sentier d'Allah qu'ils sont morts. Au contraire ils sont vivants, mais vous en êtes inconscients.`,
       transliteration: `Wa laa taqooloo limai yuqtalu fee sabeelil laahi amwaat; bal ahyaaa'unw wa laakil laa tash'uroon`,
+      commentary: {
+        context: "Les martyrs (shuhada) tombés dans le sentier d'Allah ne sont pas morts mais vivants auprès de leur Seigneur. Interdiction de les qualifier de morts.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -164,6 +287,25 @@ export const hizb03: Hizb = {
       textArabic: `وَلَنَبْلُوَنَّكُم بِشَىْءٍۢ مِّنَ ٱلْخَوْفِ وَٱلْجُوعِ وَنَقْصٍۢ مِّنَ ٱلْأَمْوَٰلِ وَٱلْأَنفُسِ وَٱلثَّمَرَٰتِ ۗ وَبَشِّرِ ٱلصَّٰبِرِينَ`,
       textFrench: `Très certainement, Nous vous éprouverons par un peu de peur, de faim et de diminution de biens, de personnes et de fruits. Et fais la bonne annonce aux endurants,`,
       transliteration: `Wa lanablu wannakum bishai'im minal khawfi waljoo'i wa naqsim minal amwaali wal anfusi was samaraat; wa bashshiris saabireen`,
+      commentary: {
+        context: "Verset célèbre des épreuves : Allah annonce qu'Il testera les croyants par cinq types d'afflictions — la peur, la faim, la perte de biens, de vies et de récoltes. La bonne annonce est réservée aux patients.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Allah utilise « bishai'in min » (par un peu de) pour montrer que les épreuves sont mesurées et supportables — Il n'éprouve pas au-delà de la capacité. Les cinq domaines d'épreuve couvrent l'ensemble de la vie humaine : la sécurité (peur), la nourriture (faim), les possessions (biens), les proches (personnes) et les moyens de subsistance (fruits/récoltes). La bonne annonce aux patients montre que l'épreuve bien supportée mène à une récompense immense.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 155",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Allah informe qu'Il éprouve Ses serviteurs, c'est-à-dire qu'Il les teste pour distinguer les patients des autres. L'expression « wa bashshir as-sabirin » (fais la bonne annonce aux endurants) indique que ceux qui patientent recevront la meilleure des récompenses. Le hadith rapporté par Muslim précise que dire « inna lillahi wa inna ilayhi raji'un » lors d'un malheur est la meilleure parole du croyant éprouvé.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 155",
+          },
+        ],
+        nuances: [
+          "Le diminutif « bishai'in min » (un peu de) est une miséricorde : les épreuves sont dosées par Allah, jamais au-delà de ce que le serviteur peut supporter.",
+          "Les cinq catégories d'épreuves sont exhaustives et couvrent tous les aspects de la vie : sécurité physique, besoins vitaux, richesse, liens humains et moyens de subsistance.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -174,6 +316,11 @@ export const hizb03: Hizb = {
       textArabic: `ٱلَّذِينَ إِذَآ أَصَٰبَتْهُم مُّصِيبَةٌۭ قَالُوٓا۟ إِنَّا لِلَّهِ وَإِنَّآ إِلَيْهِ رَٰجِعُونَ`,
       textFrench: `qui disent, quand un malheur les atteint: «Certes nous sommes à Allah, et c'est à Lui que nous retournerons.`,
       transliteration: `Allazeena izaaa asaabathum museebatun qaalooo innaa lillaahi wa innaaa ilaihi raaji'oon`,
+      commentary: {
+        context: "Description des patients : face au malheur, ils prononcent « inna lillahi wa inna ilayhi raji'un » — nous appartenons à Allah et c'est vers Lui que nous retournons. Formule de l'istirja'.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -184,6 +331,11 @@ export const hizb03: Hizb = {
       textArabic: `أُو۟لَٰٓئِكَ عَلَيْهِمْ صَلَوَٰتٌۭ مِّن رَّبِّهِمْ وَرَحْمَةٌۭ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُهْتَدُونَ`,
       textFrench: `Ceux-là reçoivent des bénédictions de leur Seigneur, ainsi que la miséricorde; et ceux-là sont les biens guidés.`,
       transliteration: `Ulaaa'ika 'alaihim salawaatun mir Rabbihim wa rahma; wa ulaaa'ika humul muhtadoon`,
+      commentary: {
+        context: "Récompense des patients : ils reçoivent les bénédictions (salawat) de leur Seigneur, Sa miséricorde, et sont qualifiés de bien guidés. Triple récompense pour la patience.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -194,6 +346,11 @@ export const hizb03: Hizb = {
       textArabic: `۞ إِنَّ ٱلصَّفَا وَٱلْمَرْوَةَ مِن شَعَآئِرِ ٱللَّهِ ۖ فَمَنْ حَجَّ ٱلْبَيْتَ أَوِ ٱعْتَمَرَ فَلَا جُنَاحَ عَلَيْهِ أَن يَطَّوَّفَ بِهِمَا ۚ وَمَن تَطَوَّعَ خَيْرًۭا فَإِنَّ ٱللَّهَ شَاكِرٌ عَلِيمٌ`,
       textFrench: `AS-Safâ et Al-Marwah sont vraiment parmi les lieux sacrés d'Allah. Donc, quiconque fait pèlerinage à la Maison ou fait l'Umra ne commet pas de péché en faisant le va-et-vient entre ces deux monts. Et quiconque fait de son propre gré une bonne œuvre, alors Allah est Reconnaissant, Omniscient.`,
       transliteration: `Innas Safaa wal-Marwata min sha'aaa'iril laahi faman hajjal Baita awi'tamara falaa junaaha 'alaihi ai yattawwafa bihimaa; wa man tatawwa'a khairan fa innal laaha Shaakirun'Aleem`,
+      commentary: {
+        context: "As-Safa et Al-Marwa font partie des rites sacrés d'Allah. Permission de faire le parcours (sa'i) entre ces deux monts lors du Hajj ou de la 'Umra, levant les scrupules des premiers musulmans.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -204,6 +361,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلْنَا مِنَ ٱلْبَيِّنَٰتِ وَٱلْهُدَىٰ مِنۢ بَعْدِ مَا بَيَّنَّٰهُ لِلنَّاسِ فِى ٱلْكِتَٰبِ ۙ أُو۟لَٰٓئِكَ يَلْعَنُهُمُ ٱللَّهُ وَيَلْعَنُهُمُ ٱللَّٰعِنُونَ`,
       textFrench: `Certes ceux qui cachent ce que Nous avons fait descendre en fait de preuves et de guide après l'exposé que Nous en avons fait aux gens, dans le Livre, voilà ceux qu'Allah maudit et que les maudisseurs maudissent,`,
       transliteration: `Innal lazeena yaktumoona maaa anzalnaa minal baiyinaati walhudaa mim ba'di maa baiyannaahu linnaasi fil kitaabi ulaaa'ika yal'anuhumul laahu wa yal'anuhumul laa 'inoon`,
+      commentary: {
+        context: "Grave avertissement contre ceux qui dissimulent les preuves claires et la guidée révélées dans le Livre. Ils encourent la malédiction d'Allah et de tous les maudisseurs.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -214,6 +376,11 @@ export const hizb03: Hizb = {
       textArabic: `إِلَّا ٱلَّذِينَ تَابُوا۟ وَأَصْلَحُوا۟ وَبَيَّنُوا۟ فَأُو۟لَٰٓئِكَ أَتُوبُ عَلَيْهِمْ ۚ وَأَنَا ٱلتَّوَّابُ ٱلرَّحِيمُ`,
       textFrench: `sauf ceux qui se sont repentis, corrigés et déclarés: d'eux Je reçois le repentir. Car c'est Moi, l'Accueillant au repentir, le Miséricordieux.`,
       transliteration: `Illal lazeena taaboo wa aslahoo wa baiyanoo fa ulaaa'ika atoobu 'alaihim; wa Anat Tawwaabur Raheem`,
+      commentary: {
+        context: "Exception pour ceux qui se repentent, se corrigent et exposent la vérité : Allah accepte leur repentir. Trois conditions du repentir : tawba, islah et bayan.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -224,6 +391,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّ ٱلَّذِينَ كَفَرُوا۟ وَمَاتُوا۟ وَهُمْ كُفَّارٌ أُو۟لَٰٓئِكَ عَلَيْهِمْ لَعْنَةُ ٱللَّهِ وَٱلْمَلَٰٓئِكَةِ وَٱلنَّاسِ أَجْمَعِينَ`,
       textFrench: `Ceux qui ne croient pas et meurent mécréants, recevront la malédiction d'Allah, des Anges et de tous les hommes.`,
       transliteration: `Innal lazeena kafaroo wamaa too wa hum kuffaarun ulaaa'ika 'alaihim la 'natul laahi walmalaa'ikati wannaasi ajma'een`,
+      commentary: {
+        context: "Sort de ceux qui meurent dans la mécréance : la malédiction d'Allah, des anges et de tous les hommes s'abat sur eux. Pas de repentir possible après la mort dans le kufr.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -234,6 +406,11 @@ export const hizb03: Hizb = {
       textArabic: `خَٰلِدِينَ فِيهَا ۖ لَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنظَرُونَ`,
       textFrench: `Ils y demeureront éternellement; le châtiment ne leur sera pas allégé, et on ne leur accordera pas de répit.`,
       transliteration: `khaalideena feeha laa yukhaffafu 'anhumul 'azaabu wa laa hum yunzaroon`,
+      commentary: {
+        context: "Suite du sort des mécréants : éternité dans la malédiction, châtiment sans allègement et sans répit. Aucun sursis ne leur sera accordé.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -244,6 +421,20 @@ export const hizb03: Hizb = {
       textArabic: `وَإِلَٰهُكُمْ إِلَٰهٌۭ وَٰحِدٌۭ ۖ لَّآ إِلَٰهَ إِلَّا هُوَ ٱلرَّحْمَٰنُ ٱلرَّحِيمُ`,
       textFrench: `Et votre Divinité est une divinité unique. Pas de divinité à part Lui, le Tout Miséricordieux, le Très Miséricordieux.`,
       transliteration: `Wa ilaahukum illaahunw waahid, laaa ilaaha illaa Huwar Rahmaanur Raheem`,
+      commentary: {
+        context: "Déclaration fondamentale du tawhid : votre divinité est une divinité unique, il n'y a de dieu que Lui, le Tout Miséricordieux, le Très Miséricordieux. Transition vers les preuves cosmiques de Son existence.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset affirme l'unicité divine (tawhid al-uluhiyyah) en associant trois attributs : l'unicité absolue (wahid), la négation de toute autre divinité (la ilaha illa Hu), et la miséricorde (ar-Rahman ar-Rahim). Allah est unique dans Sa divinité, et Sa miséricorde enveloppe toute la création. Ce verset sert de transition : après avoir affirmé l'unicité, le verset suivant en apporte les preuves cosmiques.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 163",
+          },
+        ],
+        nuances: [
+          "L'association de l'unicité et de la miséricorde montre que le Dieu unique n'est pas distant mais infiniment miséricordieux — ar-Rahman (miséricorde englobante) et ar-Rahim (miséricorde spécifique aux croyants).",
+          "Ce verset prépare le terrain pour 2:164 qui énumère les signes cosmiques prouvant l'existence et l'unicité d'Allah.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -254,6 +445,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّ فِى خَلْقِ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ وَٱخْتِلَٰفِ ٱلَّيْلِ وَٱلنَّهَارِ وَٱلْفُلْكِ ٱلَّتِى تَجْرِى فِى ٱلْبَحْرِ بِمَا يَنفَعُ ٱلنَّاسَ وَمَآ أَنزَلَ ٱللَّهُ مِنَ ٱلسَّمَآءِ مِن مَّآءٍۢ فَأَحْيَا بِهِ ٱلْأَرْضَ بَعْدَ مَوْتِهَا وَبَثَّ فِيهَا مِن كُلِّ دَآبَّةٍۢ وَتَصْرِيفِ ٱلرِّيَٰحِ وَٱلسَّحَابِ ٱلْمُسَخَّرِ بَيْنَ ٱلسَّمَآءِ وَٱلْأَرْضِ لَءَايَٰتٍۢ لِّقَوْمٍۢ يَعْقِلُونَ`,
       textFrench: `Certes dans la création des cieux et de la terre, dans l'alternance de la nuit et du jour, dans le navire qui vogue en mer chargé de choses profitables aux gens, dans l'eau qu'Allah fait descendre du ciel, par laquelle Il rend la vie à la terre une fois morte et y répand des bêtes de toute espèce dans la variation des vents, et dans les nuages soumis entre le ciel et la terre, en tout cela il y a des signes, pour un peuple qui raisonne.`,
       transliteration: `Inna fee khalqis samaawaati wal ardi wakhtilaafil laili wannahaari walfulkil latee tajree fil hahri bimaa yanfa'unnaasa wa maaa anzalal laahu minas samaaa'i mim maaa'in fa ahyaa bihil arda ba'da mawtihaa wa bas sa feehaa min kulli daaabbatinw wa tasreefir riyaahi wassahaabil musakhkhari bainas samaaa'i wal ardi la aayaatil liqawminy ya'qiloon`,
+      commentary: {
+        context: "Preuves cosmiques de l'unicité d'Allah : la création des cieux et de la terre, l'alternance du jour et de la nuit, les navires, la pluie, les animaux, les vents et les nuages — signes pour ceux qui raisonnent.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -264,6 +460,11 @@ export const hizb03: Hizb = {
       textArabic: `وَمِنَ ٱلنَّاسِ مَن يَتَّخِذُ مِن دُونِ ٱللَّهِ أَندَادًۭا يُحِبُّونَهُمْ كَحُبِّ ٱللَّهِ ۖ وَٱلَّذِينَ ءَامَنُوٓا۟ أَشَدُّ حُبًّۭا لِّلَّهِ ۗ وَلَوْ يَرَى ٱلَّذِينَ ظَلَمُوٓا۟ إِذْ يَرَوْنَ ٱلْعَذَابَ أَنَّ ٱلْقُوَّةَ لِلَّهِ جَمِيعًۭا وَأَنَّ ٱللَّهَ شَدِيدُ ٱلْعَذَابِ`,
       textFrench: `Parmi les hommes, il en est qui prennent, en dehors d'Allah, des égaux à Lui, en les aimant comme on aime Allah. Or les croyants sont les plus ardents en l'amour d'Allah. Quand les injustes verront le châtiment, ils sauront que la force tout entière est à Allah et qu'Allah est dur en châtiment!...`,
       transliteration: `Wa minan naasi mai yattakhizu min doonil laahi andaadai yuhibboonahum kahubbil laahi wallazeena aamanooo ashaddu hubbal lillah; wa law yaral lazeena zalamoo iz yarawnal 'azaaba annal quwwata lillaahi jamee'anw wa annallaaha shadeedul 'azaab`,
+      commentary: {
+        context: "Condamnation du shirk affectif : certains prennent des associés qu'ils aiment comme on aime Allah. Les croyants sont les plus ardents dans l'amour d'Allah. Avertissement sur le châtiment des injustes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -274,6 +475,11 @@ export const hizb03: Hizb = {
       textArabic: `إِذْ تَبَرَّأَ ٱلَّذِينَ ٱتُّبِعُوا۟ مِنَ ٱلَّذِينَ ٱتَّبَعُوا۟ وَرَأَوُا۟ ٱلْعَذَابَ وَتَقَطَّعَتْ بِهِمُ ٱلْأَسْبَابُ`,
       textFrench: `Quand les meneurs désavoueront les suiveurs à la vue du châtiment, les liens entre eux seront bien brisés!`,
       transliteration: `Iz tabarra al lazeenat tubi'oo minal lazeenattaba'oo wa ra awul 'azaaba wa taqatta'at bihimul asbaab`,
+      commentary: {
+        context: "Scène du Jour du Jugement : les meneurs désavouent leurs suiveurs à la vue du châtiment. Tous les liens et les causes qui les unissaient sont brisés définitivement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -284,6 +490,11 @@ export const hizb03: Hizb = {
       textArabic: `وَقَالَ ٱلَّذِينَ ٱتَّبَعُوا۟ لَوْ أَنَّ لَنَا كَرَّةًۭ فَنَتَبَرَّأَ مِنْهُمْ كَمَا تَبَرَّءُوا۟ مِنَّا ۗ كَذَٰلِكَ يُرِيهِمُ ٱللَّهُ أَعْمَٰلَهُمْ حَسَرَٰتٍ عَلَيْهِمْ ۖ وَمَا هُم بِخَٰرِجِينَ مِنَ ٱلنَّارِ`,
       textFrench: `Et les suiveurs diront: «Ah! Si un retour nous était possible! Alors nous les désavouerions comme ils nous ont désavoués!» - Ainsi Allah leur montra leurs actions; source de remords pour eux; mais ils ne pourront pas sortir du Feu.`,
       transliteration: `Wa qaalal lazeenat taba'oo law anna lanaa karratan fanatabarra a minhum kamaa tabarra'oo minnaa; kazaalika yureehimullaahu a'maalahum hasaraatin 'alaihim wa maa hum bikhaarijeena minan Naar`,
+      commentary: {
+        context: "Les suiveurs souhaitent un retour pour désavouer leurs meneurs à leur tour. Allah leur montre leurs oeuvres comme source de remords éternels, sans issue hors du Feu.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -294,6 +505,11 @@ export const hizb03: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلنَّاسُ كُلُوا۟ مِمَّا فِى ٱلْأَرْضِ حَلَٰلًۭا طَيِّبًۭا وَلَا تَتَّبِعُوا۟ خُطُوَٰتِ ٱلشَّيْطَٰنِ ۚ إِنَّهُۥ لَكُمْ عَدُوٌّۭ مُّبِينٌ`,
       textFrench: `O gens! De ce qui existe sur la terre; mangez le licite pur; ne suivez point les pas du Diable car il est vraiment pour vous, un ennemi déclaré.`,
       transliteration: `Yaaa ayyuhan naasu kuloo mimmaa fil ardi halaalan taiyibanw wa laa tattabi'oo khutu waatish Shaitaan; innahoo lakum 'aduwwum mubeen`,
+      commentary: {
+        context: "Appel universel à manger le licite et le pur sur terre, et avertissement contre les pas de Satan, ennemi déclaré de l'homme depuis le début de la création.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -304,6 +520,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّمَا يَأْمُرُكُم بِٱلسُّوٓءِ وَٱلْفَحْشَآءِ وَأَن تَقُولُوا۟ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ`,
       textFrench: `Il ne vous commande que le mal et la turpitude et de dire contre Allah ce que vous ne savez pas.`,
       transliteration: `Innamaa yaamurukum bissooo'i walfahshaaa'i wa an taqooloo alal laahi maa laa ta'lamoon`,
+      commentary: {
+        context: "Suite de l'avertissement : Satan ne commande que le mal, la turpitude et de dire sur Allah ce qu'on ne sait pas, trois degrés croissants de corruption.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -314,6 +535,11 @@ export const hizb03: Hizb = {
       textArabic: `وَإِذَا قِيلَ لَهُمُ ٱتَّبِعُوا۟ مَآ أَنزَلَ ٱللَّهُ قَالُوا۟ بَلْ نَتَّبِعُ مَآ أَلْفَيْنَا عَلَيْهِ ءَابَآءَنَآ ۗ أَوَلَوْ كَانَ ءَابَآؤُهُمْ لَا يَعْقِلُونَ شَيْـًۭٔا وَلَا يَهْتَدُونَ`,
       textFrench: `Et quand on leur dit: «Suivez ce qu'Allah a fait descendre», ils disent: «Non, mais nous suivrons les coutumes de nos ancêtres.» - Quoi! et si leurs ancêtres n'avaient rien raisonné et s'ils n'avaient pas été dans la bonne direction?`,
       transliteration: `Wa izaa qeela lahumuttabi'oo maaa anzalal laahu qaaloo bal nattabi'u maaa alfainaa 'alaihi aabaaa'anaaa; awalaw kaana aabaaa'hum laa ya'qiloona shai'anw wa laa yahtadoon`,
+      commentary: {
+        context: "Critique du suivi aveugle des traditions ancestrales : quand on leur dit de suivre la révélation, ils préfèrent les coutumes de leurs pères, même si ceux-ci ne raisonnaient pas.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -324,6 +550,11 @@ export const hizb03: Hizb = {
       textArabic: `وَمَثَلُ ٱلَّذِينَ كَفَرُوا۟ كَمَثَلِ ٱلَّذِى يَنْعِقُ بِمَا لَا يَسْمَعُ إِلَّا دُعَآءًۭ وَنِدَآءًۭ ۚ صُمٌّۢ بُكْمٌ عُمْىٌۭ فَهُمْ لَا يَعْقِلُونَ`,
       textFrench: `Les mécréants ressemblent à [du bétail] auquel on crie et qui entend seulement appel et voix confus. Sourds, muets, aveugles, ils ne raisonnent point.`,
       transliteration: `Wa masalul lazeena kafaroo kamasalil lazee yan'iqu bimaa laa yasma'u illaa du'aaa'anw wa nidaaa'aa; summum bukmun 'umyun fahum laa ya'qiloon`,
+      commentary: {
+        context: "Parabole des mécréants comparés à du bétail qui n'entend que des cris sans comprendre. Sourds, muets, aveugles spirituellement, ils refusent de raisonner.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -334,6 +565,11 @@ export const hizb03: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُلُوا۟ مِن طَيِّبَٰتِ مَا رَزَقْنَٰكُمْ وَٱشْكُرُوا۟ لِلَّهِ إِن كُنتُمْ إِيَّاهُ تَعْبُدُونَ`,
       textFrench: `O les croyants! Mangez des (nourritures) licites que Nous vous avons attribuées. Et remerciez Allah, si c'est Lui que vous adorez.`,
       transliteration: `Yaaa ayyuhal lazeena aamanoo kuloo min taiyibaati maa razaqnaakum washkuroo lillaahi in kuntum iyyaahu ta'budoon`,
+      commentary: {
+        context: "Adresse spécifique aux croyants : mangez des bonnes nourritures qu'Allah vous a accordées et remerciez-Le. Le lien entre nourriture licite et adoration est souligné.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -344,6 +580,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّمَا حَرَّمَ عَلَيْكُمُ ٱلْمَيْتَةَ وَٱلدَّمَ وَلَحْمَ ٱلْخِنزِيرِ وَمَآ أُهِلَّ بِهِۦ لِغَيْرِ ٱللَّهِ ۖ فَمَنِ ٱضْطُرَّ غَيْرَ بَاغٍۢ وَلَا عَادٍۢ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌ`,
       textFrench: `Certes, Il vous interdit la chair d'une bête morte, le sang, la viande de porc et ce sur quoi on a invoqué un autre qu'Allah. Il n'y a pas de péché sur celui qui est contraint sans toutefois abuser ni transgresser, car Allah est Pardonneur et Miséricordieux.`,
       transliteration: `Innamaa harrama 'alaikumul maitata waddama wa lahmal khinzeeri wa maaa uhilla bihee lighairil laahi famanid turra ghaira baaghinw wa laa 'aadin falaaa isma 'alaih; innal laaha Ghafoorur Raheem`,
+      commentary: {
+        context: "Les quatre interdits alimentaires fondamentaux : la bête morte, le sang, le porc, et ce qui est immolé pour autre qu'Allah. Exception de nécessité sans excès ni transgression.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -354,6 +595,11 @@ export const hizb03: Hizb = {
       textArabic: `إِنَّ ٱلَّذِينَ يَكْتُمُونَ مَآ أَنزَلَ ٱللَّهُ مِنَ ٱلْكِتَٰبِ وَيَشْتَرُونَ بِهِۦ ثَمَنًۭا قَلِيلًا ۙ أُو۟لَٰٓئِكَ مَا يَأْكُلُونَ فِى بُطُونِهِمْ إِلَّا ٱلنَّارَ وَلَا يُكَلِّمُهُمُ ٱللَّهُ يَوْمَ ٱلْقِيَٰمَةِ وَلَا يُزَكِّيهِمْ وَلَهُمْ عَذَابٌ أَلِيمٌ`,
       textFrench: `Ceux qui cachent ce qu'Allah a fait descendre du Livre et le vendent à vil prix, ceux-là ne s'emplissent le ventre que de Feu. Allah ne leur adressera pas la parole, au Jour de la Résurrection, et ne les purifiera pas. Et il y aura pour eux un douloureux châtiment.`,
       transliteration: `Innal lazeena yaktumoona maaa anzalal laahu minal kitaabi wa yashtaroona bihee samanan qaleelan ulaaa'ika maa yaakuloona fee butoonihim illan Naara wa laa yukallimu humul laahu Yawmal Qiyaamati wa laa yuzakkeehim wa lahum 'azaabun aleem`,
+      commentary: {
+        context: "Condamnation sévère de ceux qui cachent la vérité révélée pour un profit dérisoire. Ils ne remplissent leur ventre que de Feu et Allah ne leur parlera pas au Jour dernier.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -364,6 +610,11 @@ export const hizb03: Hizb = {
       textArabic: `أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلضَّلَٰلَةَ بِٱلْهُدَىٰ وَٱلْعَذَابَ بِٱلْمَغْفِرَةِ ۚ فَمَآ أَصْبَرَهُمْ عَلَى ٱلنَّارِ`,
       textFrench: `Ceux-là ont échangé la bonne direction contre l'égarement et le pardon contre le châtiment. Qu'est-ce qui leur fera supporter le Feu?!`,
       transliteration: `Ulaaa'ikal lazeenash tarawud dalaalata bilhudaa wal'azaaba bilmaghfirah; famaaa asbarahum 'alan Naar`,
+      commentary: {
+        context: "Ceux-là ont échangé la guidance contre l'égarement et le pardon contre le châtiment. Exclamation rhétorique : comment supporteront-ils le Feu ?",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -374,6 +625,11 @@ export const hizb03: Hizb = {
       textArabic: `ذَٰلِكَ بِأَنَّ ٱللَّهَ نَزَّلَ ٱلْكِتَٰبَ بِٱلْحَقِّ ۗ وَإِنَّ ٱلَّذِينَ ٱخْتَلَفُوا۟ فِى ٱلْكِتَٰبِ لَفِى شِقَاقٍۭ بَعِيدٍۢ`,
       textFrench: `C'est ainsi, car c'est avec la vérité qu'Allah a fait descendre le Livre; et ceux qui s'opposent au sujet du Livre sont dans une profonde divergence.`,
       transliteration: `Zaalika bi annal laaha nazzalal kitaaba bilhaqq; wa innal lazeenakh talafoo fil kitaabi lafee shiqaaqim ba'eed`,
+      commentary: {
+        context: "Conclusion du passage : Allah a révélé le Livre avec la vérité. Ceux qui divergent à son sujet sont dans une opposition profonde, loin de la guidance.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -384,6 +640,26 @@ export const hizb03: Hizb = {
       textArabic: `۞ لَّيْسَ ٱلْبِرَّ أَن تُوَلُّوا۟ وُجُوهَكُمْ قِبَلَ ٱلْمَشْرِقِ وَٱلْمَغْرِبِ وَلَٰكِنَّ ٱلْبِرَّ مَنْ ءَامَنَ بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ وَٱلْمَلَٰٓئِكَةِ وَٱلْكِتَٰبِ وَٱلنَّبِيِّۦنَ وَءَاتَى ٱلْمَالَ عَلَىٰ حُبِّهِۦ ذَوِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينَ وَٱبْنَ ٱلسَّبِيلِ وَٱلسَّآئِلِينَ وَفِى ٱلرِّقَابِ وَأَقَامَ ٱلصَّلَوٰةَ وَءَاتَى ٱلزَّكَوٰةَ وَٱلْمُوفُونَ بِعَهْدِهِمْ إِذَا عَٰهَدُوا۟ ۖ وَٱلصَّٰبِرِينَ فِى ٱلْبَأْسَآءِ وَٱلضَّرَّآءِ وَحِينَ ٱلْبَأْسِ ۗ أُو۟لَٰٓئِكَ ٱلَّذِينَ صَدَقُوا۟ ۖ وَأُو۟لَٰٓئِكَ هُمُ ٱلْمُتَّقُونَ`,
       textFrench: `La bonté pieuse ne consiste pas à tourner vos visages vers le Levant ou le Couchant. Mais la bonté pieuse est de croire en Allah, au Jour dernier, aux Anges, au Livre et aux prophètes, de donner de son bien, quelqu'amour qu'on en ait, aux proches, aux orphelins, aux nécessiteux, aux voyageurs indigents et à ceux qui demandent l'aide et pour délier les jougs, d'accomplir la Salât et d'acquitter la Zakât. Et ceux qui remplissent leurs engagements lorsqu'ils se sont engagés, ceux qui sont endurants dans la misère, la maladie et quand les combats font rage, les voilà les véridiques et les voilà les vrais pieux!`,
       transliteration: `Laisal birra an tuwalloo wujoohakum qibalal mashriqi walmaghribi wa laakinnal birra man aamana billaahi wal yawmil aakhiri wal malaaa 'ikati wal kitaabi wan nabiyyeena wa aatalmaala 'alaa hubbihee zawilqurbaa walyataa maa walmasaakeena wabnas sabeeli wassaaa'ileena wa firriqaabi wa aqaamas salaata wa aataz zakaata walmoofoona bi ahdihim izaa 'aahadoo wasaabireena fil baasaaa'i waddarraaa'i wa heenal baas; ulaaa'ikal lazeena sadaqoo wa ulaaa 'ika humul muttaqoon`,
+      commentary: {
+        context: "La grande définition coranique d'al-birr (la piété véritable). Ce verset synthétise la foi complète, les actes d'adoration, la générosité sociale, la fidélité aux engagements et la patience dans l'adversité. Un des versets les plus complets du Coran.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset est l'un des plus complets du Coran : il réunit foi, actes d'adoration, bonté sociale, et qualités morales. La piété n'est pas de se tourner vers l'est ou l'ouest (allusion au débat sur la qibla), mais d'avoir une foi complète en Allah, au Jour dernier, aux anges, aux Livres et aux prophètes, de dépenser son argent avec amour pour les proches, orphelins, pauvres, voyageurs et captifs, d'accomplir la prière et la zakat, de tenir ses engagements et de patienter dans la pauvreté, la maladie et au moment du combat.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 177",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Abu Dharr demanda au Prophète ﷺ au sujet d'al-birr, et il récita ce verset. Ce verset énumère les piliers de la piété dans un ordre précis : d'abord les croyances fondamentales (foi en Allah, Jour dernier, anges, Livres, prophètes), puis les actes de générosité envers huit catégories de bénéficiaires, puis les piliers pratiques (prière et zakat), puis les qualités morales (fidélité et patience). Ceux qui réunissent tout cela sont les véridiques et les vrais pieux.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 177",
+          },
+        ],
+        nuances: [
+          "Le verset commence par nier que la piété se résume à la direction de prière, puis définit positivement al-birr en quatre catégories : croyance, générosité, adoration rituelle et qualités morales.",
+          "« 'Ala hubbihi » (malgré l'amour qu'on a pour ses biens) : la vraie générosité est de donner ce qu'on aime, pas ce dont on n'a pas besoin.",
+          "Les trois niveaux de patience mentionnés (baasa, darraa, hina al-ba's) couvrent la pauvreté, la maladie et le combat — les épreuves majeures de la vie.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -394,6 +670,11 @@ export const hizb03: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلْقِصَاصُ فِى ٱلْقَتْلَى ۖ ٱلْحُرُّ بِٱلْحُرِّ وَٱلْعَبْدُ بِٱلْعَبْدِ وَٱلْأُنثَىٰ بِٱلْأُنثَىٰ ۚ فَمَنْ عُفِىَ لَهُۥ مِنْ أَخِيهِ شَىْءٌۭ فَٱتِّبَاعٌۢ بِٱلْمَعْرُوفِ وَأَدَآءٌ إِلَيْهِ بِإِحْسَٰنٍۢ ۗ ذَٰلِكَ تَخْفِيفٌۭ مِّن رَّبِّكُمْ وَرَحْمَةٌۭ ۗ فَمَنِ ٱعْتَدَىٰ بَعْدَ ذَٰلِكَ فَلَهُۥ عَذَابٌ أَلِيمٌۭ`,
       textFrench: `O les croyants! On vous a prescrit le talion au sujet des tués: homme libre pour homme libre, esclave pour esclave, femme pour femme. Mais celui à qui son frère aura pardonné en quelque façon doit faire face à une requête convenable et doit payer des dommages de bonne grâce. Ceci est un allègement de la part de votre Seigneur, et une miséricorde. Donc, quiconque après cela transgresse, aura un châtiment douloureux.`,
       transliteration: `Yaaa ayyuhal lazeena aamanoo kutiba alaikumul qisaasu fil qatlaa alhurru bilhurri wal'abdu bil'abdi wal unsaa bil unsaa; faman 'ufiya lahoo min akheehi shai'un fattibaa'um bilma'roofi wa adaaa'un ilaihi bi ihsaan; zaalika takhfeefum mir rahbikum wa rahmah; famani' tadaa ba'da zaalika falahoo 'azaabun aleem`,
+      commentary: {
+        context: "Prescription du qisas (talion) en cas de meurtre, avec ouverture au pardon et à la compensation financière. Cet allègement est une miséricorde d'Allah propre à cette communauté.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -404,6 +685,11 @@ export const hizb03: Hizb = {
       textArabic: `وَلَكُمْ فِى ٱلْقِصَاصِ حَيَوٰةٌۭ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ لَعَلَّكُمْ تَتَّقُونَ`,
       textFrench: `C'est dans le talion que vous aurez la préservation de la vie, ô vous doués d'intelligence, ainsi atteindrez-vous la piété.`,
       transliteration: `Wa lakum fil qisaasi hayaatuny yaaa ulil albaabi la 'allakum tattaqoon`,
+      commentary: {
+        context: "Sagesse profonde du talion : il préserve la vie en dissuadant le meurtre. Formule concise et éloquente adressée aux doués d'intelligence, pour atteindre la piété.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -414,6 +700,11 @@ export const hizb03: Hizb = {
       textArabic: `كُتِبَ عَلَيْكُمْ إِذَا حَضَرَ أَحَدَكُمُ ٱلْمَوْتُ إِن تَرَكَ خَيْرًا ٱلْوَصِيَّةُ لِلْوَٰلِدَيْنِ وَٱلْأَقْرَبِينَ بِٱلْمَعْرُوفِ ۖ حَقًّا عَلَى ٱلْمُتَّقِينَ`,
       textFrench: `On vous a prescrit, quand la mort est proche de l'un de vous et s'il laisse des biens, de faire un testament en règle en faveur de ses père et mère et de ses plus proches. C'est un devoir pour les pieux.`,
       transliteration: `Kutiba 'alaikum izaa hadara ahadakumul mawtu in taraka khairanil wasiyyatu lilwaalidaini wal aqrabeena bilma'roofi haqqan 'alalmut taqeen`,
+      commentary: {
+        context: "Prescription du testament en faveur des parents et proches avant la mort. Ce devoir de justice sociale sera précisé par les versets d'héritage dans sourate An-Nisa.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -424,6 +715,11 @@ export const hizb03: Hizb = {
       textArabic: `فَمَنۢ بَدَّلَهُۥ بَعْدَمَا سَمِعَهُۥ فَإِنَّمَآ إِثْمُهُۥ عَلَى ٱلَّذِينَ يُبَدِّلُونَهُۥٓ ۚ إِنَّ ٱللَّهَ سَمِيعٌ عَلِيمٌۭ`,
       textFrench: `Quiconque l'altère après l'avoir entendu, le péché ne reposera que sur ceux qui l'ont altéré; certes, Allah est Audient et Omniscient.`,
       transliteration: `Famam baddalahoo ba'da maa sami'ahoo fa innamaaa ismuhoo 'alallazeena yubaddi loonah; innallaha Samee'un 'Aleem`,
+      commentary: {
+        context: "Avertissement à ceux qui falsifient un testament après l'avoir entendu : le péché retombe sur les falsificateurs, car Allah entend et sait tout.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -434,6 +730,11 @@ export const hizb03: Hizb = {
       textArabic: `فَمَنْ خَافَ مِن مُّوصٍۢ جَنَفًا أَوْ إِثْمًۭا فَأَصْلَحَ بَيْنَهُمْ فَلَآ إِثْمَ عَلَيْهِ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ`,
       textFrench: `Mais quiconque craint d'un testateur quelque partialité (volontaire ou involontaire), et les réconcilie, alors, pas de péché sur lui car Allah est certes Pardonneur et Miséricordieux!`,
       transliteration: `Faman khaafa mim moosin janafan aw isman fa aslaha bainahum falaaa ismaa 'alayh; innal laaha Ghafooru Raheem`,
+      commentary: {
+        context: "Exception : celui qui craint une injustice du testateur et réconcilie les parties n'a pas de péché. La correction d'un testament injuste est autorisée et même encouragée.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -444,6 +745,25 @@ export const hizb03: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ كُتِبَ عَلَيْكُمُ ٱلصِّيَامُ كَمَا كُتِبَ عَلَى ٱلَّذِينَ مِن قَبْلِكُمْ لَعَلَّكُمْ تَتَّقُونَ`,
       textFrench: `O les croyants! On vous a prescrit aS-Siyâm comme on l'a prescrit à ceux d'avant vous, ainsi atteindrez-vous la piété,`,
       transliteration: `Yaa ayyuhal lazeena aamanoo kutiba 'alaikumus Siyaamu kamaa kutiba 'alal lazeena min qablikum la'allakum tattaqoon`,
+      commentary: {
+        context: "Verset fondateur de la prescription du jeûne (siyam) pour les croyants, comme il fut prescrit aux communautés antérieures. La finalité explicite est d'atteindre la taqwa (piété, conscience d'Allah).",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Le jeûne est prescrit comme il l'a été aux communautés précédentes, ce qui console les croyants : ils ne sont pas les seuls à porter cette obligation. La sagesse du jeûne est d'atteindre la taqwa (piété). Le jeûne éduque l'âme en la privant de ses désirs licites (nourriture, boisson, relations) pour la rapprocher d'Allah. Celui qui délaisse ce qu'il désire pour Allah, cela est de la taqwa.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 183",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Le jeûne existait chez toutes les nations avant l'islam, ce qui montre son importance universelle dans l'adoration d'Allah. Le terme « kutiba » (prescrit/écrit) indique l'obligation formelle. La finalité « la'allakum tattaqun » montre que le jeûne est un moyen d'éducation spirituelle : en se privant du licite, le croyant apprend à se détourner de l'illicite.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 183",
+          },
+        ],
+        nuances: [
+          "Le terme « kutiba » (il vous a été prescrit) indique une obligation ferme, au même titre que le qisas mentionné quelques versets plus tôt.",
+          "La mention des communautés antérieures adoucit la prescription en montrant qu'elle n'est pas propre à cette communauté.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -454,6 +774,11 @@ export const hizb03: Hizb = {
       textArabic: `أَيَّامًۭا مَّعْدُودَٰتٍۢ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ ۚ وَعَلَى ٱلَّذِينَ يُطِيقُونَهُۥ فِدْيَةٌۭ طَعَامُ مِسْكِينٍۢ ۖ فَمَن تَطَوَّعَ خَيْرًۭا فَهُوَ خَيْرٌۭ لَّهُۥ ۚ وَأَن تَصُومُوا۟ خَيْرٌۭ لَّكُمْ ۖ إِن كُنتُمْ تَعْلَمُونَ`,
       textFrench: `pendant un nombre déterminé de jours. Quiconque d'entre vous est malade ou en voyage, devra jeûner un nombre égal d'autres jours. Mais pour ceux qui ne pourraient le supporter qu'(avec grande difficulté), il y a une compensation: nourrir un pauvre. Et si quelqu'un fait plus de son propre gré, c'est pour lui; mais il est mieux pour vous de jeûner; si vous saviez!`,
       transliteration: `Ayyaamam ma'doodaat; faman kaana minkum mareedan aw'alaa safarin fa'iddatum min ayyaamin ukhar; wa 'alal lazeena yuteeqoonahoo fidyatun ta'aamu miskeenin faman tatawwa'a khairan fahuwa khairulo lahoo wa an tasoomoo khairul lakum in kuntum ta'lamoon`,
+      commentary: {
+        context: "Précisions sur le jeûne : nombre limité de jours, dispense pour le malade et le voyageur avec rattrapage, et compensation pour ceux qui ne peuvent pas jeûner. Le jeûne reste meilleur.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -464,6 +789,25 @@ export const hizb03: Hizb = {
       textArabic: `شَهْرُ رَمَضَانَ ٱلَّذِىٓ أُنزِلَ فِيهِ ٱلْقُرْءَانُ هُدًۭى لِّلنَّاسِ وَبَيِّنَٰتٍۢ مِّنَ ٱلْهُدَىٰ وَٱلْفُرْقَانِ ۚ فَمَن شَهِدَ مِنكُمُ ٱلشَّهْرَ فَلْيَصُمْهُ ۖ وَمَن كَانَ مَرِيضًا أَوْ عَلَىٰ سَفَرٍۢ فَعِدَّةٌۭ مِّنْ أَيَّامٍ أُخَرَ ۗ يُرِيدُ ٱللَّهُ بِكُمُ ٱلْيُسْرَ وَلَا يُرِيدُ بِكُمُ ٱلْعُسْرَ وَلِتُكْمِلُوا۟ ٱلْعِدَّةَ وَلِتُكَبِّرُوا۟ ٱللَّهَ عَلَىٰ مَا هَدَىٰكُمْ وَلَعَلَّكُمْ تَشْكُرُونَ`,
       textFrench: `(Ces jours sont) le mois de Ramadân au cours duquel le Coran a été descendu comme guide pour les gens, et preuves claires de la bonne direction et du discernement. Donc, quiconque d'entre vous est présent en ce mois, qu'il jeûne! Et quiconque est malade ou en voyage, alors qu'il jeûne un nombre égal d'autres jours. - Allah veut pour vous la facilité, Il ne veut pas la difficulté pour vous, afin que vous en complétiez le nombre et que vous proclamiez la grandeur d'Allah pour vous avoir guidés, et afin que vous soyez reconnaissants!`,
       transliteration: `Shahru Ramadaanallazeee unzila feehil Qur'aanu hudal linnaasi wa baiyinaatim minal hudaa wal furqaan; faman shahida minkumush shahra falyasumhu wa man kaana mareedan aw 'alaa safarin fa'iddatum min ayyaamin ukhar; yureedul laahu bikumul yusra wa laa yureedu bikumul 'usra wa litukmilul 'iddata wa litukabbirul laaha 'alaa maa hadaakum wa la'allakum tashkuroon`,
+      commentary: {
+        context: "Le mois de Ramadan identifié comme celui de la révélation du Coran, guidance pour l'humanité et critère de discernement (furqan). L'obligation de jeûner y est confirmée, avec la facilité voulue par Allah.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset établit trois choses fondamentales : 1) Le Ramadan est le mois de la révélation du Coran, ce qui lui confère son honneur immense ; 2) Le Coran est guidance pour les gens et preuves claires, il est à la fois « huda » (guidance) et « furqan » (critère qui distingue le vrai du faux) ; 3) Quiconque est présent (non voyageur) doit jeûner. Puis Allah énonce un principe majeur de la législation islamique : « Allah veut pour vous la facilité et ne veut pas la difficulté pour vous. »",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 185",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Le Coran a été descendu en totalité de la Tablette préservée (al-Lawh al-Mahfuz) vers le ciel le plus bas (bayt al-'izza) durant la Nuit du Destin (Laylat al-Qadr) en Ramadan, puis révélé progressivement au Prophète ﷺ sur 23 ans selon les événements. Ce verset glorifie le Ramadan en le liant au Coran. La règle « yuridul-lahu bikumul-yusr » est un fondement de la facilité dans la charia.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 185",
+          },
+        ],
+        nuances: [
+          "Le Coran est qualifié de trois attributs : huda (guidance), bayyinat (preuves claires) et furqan (discernement) — il guide, prouve et distingue le vrai du faux.",
+          "« Yuridul-lahu bikumul-yusr » (Allah veut la facilité) est un principe juridique fondamental utilisé pour alléger les obligations en cas de difficulté.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -474,6 +818,34 @@ export const hizb03: Hizb = {
       textArabic: `وَإِذَا سَأَلَكَ عِبَادِى عَنِّى فَإِنِّى قَرِيبٌ ۖ أُجِيبُ دَعْوَةَ ٱلدَّاعِ إِذَا دَعَانِ ۖ فَلْيَسْتَجِيبُوا۟ لِى وَلْيُؤْمِنُوا۟ بِى لَعَلَّهُمْ يَرْشُدُونَ`,
       textFrench: `Et quand Mes serviteurs t'interrogent sur Moi.. alors Je suis tout proche: Je réponds à l'appel de celui qui Me prie quand il Me prie. Qu'ils répondent à Mon appel, et qu'ils croient en Moi, afin qu'ils soient bien guidés.`,
       transliteration: `Wa izaa sa alaka 'ibaadee 'annnee fa innee qareebun ujeebu da'wataddaa'i izaa da'aani falyastajeeboo lee walyu minoo beela 'allahum yarshudoon`,
+      commentary: {
+        context: "Joyau de spiritualité au milieu des prescriptions du jeûne : Allah affirme Sa proximité et Son exaucement direct du croyant qui L'invoque, sans intermédiaire. Verset d'une tendresse immense.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset est un joyau de consolation : Allah répond Lui-même directement, sans intermédiaire. Remarquez qu'Il ne dit pas « dis-leur que Je suis proche » mais « Je suis proche » — réponse directe qui renforce l'intimité entre le Serviteur et son Seigneur. Il exauce celui qui L'invoque. Les conditions sont : croire en Allah et Lui répondre (obéissance). Ce verset encourage l'invocation en tout temps, et particulièrement durant le jeûne.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 186",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ce verset fut révélé quand un bédouin demanda au Prophète ﷺ : « Notre Seigneur est-Il proche pour que nous Lui chuchotions, ou loin pour que nous L'appelions fort ? » Allah révéla alors ce verset. Il est placé au milieu des versets du jeûne pour indiquer que le jeûneur a une invocation exaucée, comme le confirme le hadith : « Le jeûneur a une invocation qui n'est pas rejetée au moment de la rupture. »",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 186",
+          },
+        ],
+        nuances: [
+          "Allah dit « fa inni qarib » (Je suis proche) sans passer par « qul » (dis) — c'est l'un des rares versets où Allah répond directement sans l'intermédiaire du « dis ».",
+          "Le placement de ce verset au milieu des règles du jeûne indique le lien intime entre le jeûne et l'exaucement de l'invocation.",
+        ],
+        relatedHadiths: [
+          {
+            collection: "Sunan at-Tirmidhi",
+            number: "3598",
+            narrator: "Abu Hurayra",
+            text: "Trois invocations ne sont pas rejetées : celle du jeûneur au moment de la rupture, celle du dirigeant juste, et celle de l'opprimé.",
+            grade: "Hasan",
+          },
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -484,6 +856,11 @@ export const hizb03: Hizb = {
       textArabic: `أُحِلَّ لَكُمْ لَيْلَةَ ٱلصِّيَامِ ٱلرَّفَثُ إِلَىٰ نِسَآئِكُمْ ۚ هُنَّ لِبَاسٌۭ لَّكُمْ وَأَنتُمْ لِبَاسٌۭ لَّهُنَّ ۗ عَلِمَ ٱللَّهُ أَنَّكُمْ كُنتُمْ تَخْتَانُونَ أَنفُسَكُمْ فَتَابَ عَلَيْكُمْ وَعَفَا عَنكُمْ ۖ فَٱلْـَٰٔنَ بَٰشِرُوهُنَّ وَٱبْتَغُوا۟ مَا كَتَبَ ٱللَّهُ لَكُمْ ۚ وَكُلُوا۟ وَٱشْرَبُوا۟ حَتَّىٰ يَتَبَيَّنَ لَكُمُ ٱلْخَيْطُ ٱلْأَبْيَضُ مِنَ ٱلْخَيْطِ ٱلْأَسْوَدِ مِنَ ٱلْفَجْرِ ۖ ثُمَّ أَتِمُّوا۟ ٱلصِّيَامَ إِلَى ٱلَّيْلِ ۚ وَلَا تُبَٰشِرُوهُنَّ وَأَنتُمْ عَٰكِفُونَ فِى ٱلْمَسَٰجِدِ ۗ تِلْكَ حُدُودُ ٱللَّهِ فَلَا تَقْرَبُوهَا ۗ كَذَٰلِكَ يُبَيِّنُ ٱللَّهُ ءَايَٰتِهِۦ لِلنَّاسِ لَعَلَّهُمْ يَتَّقُونَ`,
       textFrench: `On vous a permis, la nuit d'as-Siyâm, d'avoir des rapports avec vos femmes; elles sont un vêtement pour vous et vous êtes un vêtement pour elles. Allah sait que vous aviez clandestinement des rapports avec vos femmes. Il vous a pardonné et vous a graciés. Cohabitez donc avec elles, maintenant, et cherchez ce qu'Allah a prescrit en votre faveur; mangez et buvez jusqu'à ce que se distingue, pour vous, le fil blanc de l'aube du fil noir de la nuit. Puis accomplissez le jeûne jusqu'à la nuit. Mais ne cohabitez pas avec elles pendant que vous êtes en retraite rituelle dans les mosquées. Voilà les lois d'Allah: ne vous en approchez donc pas (pour les transgresser). C'est ainsi qu'Allah expose aux hommes Ses enseignements, afin qu'ils deviennent pieux!`,
       transliteration: `Uhilla lakum laylatas Siyaamir rafasu ilaa nisaaa'ikum; hunna libaasullakum wa antum libaasullahunn; 'alimal laahu annakum kuntum takhtaanoona anfusakum fataaba 'alaikum wa 'afaa 'ankum fal'aana baashiroo hunna wabtaghoo maa katabal laahoo lakum; wa kuloo washraboo hattaa yatabaiyana lakumul khaitul abyadu minal khaitil aswadi minal fajri summa atimmus Siyaama ilal layl; wa laa tubaashiroo hunna wa antum 'aakifoona fil masaajid; tilka hudoodul laahi falaa taqraboohaa; kazaalika yubaiyinul laahu aayaatihee linnaasi la'allahum yattaqoon`,
+      commentary: {
+        context: "Règles détaillées des nuits de Ramadan : rapports conjugaux autorisés la nuit, limites du jeûne de l'aube au coucher du soleil, interdiction durant la retraite spirituelle (i'tikaf). Les époux sont un vêtement l'un pour l'autre.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -494,6 +871,11 @@ export const hizb03: Hizb = {
       textArabic: `وَلَا تَأْكُلُوٓا۟ أَمْوَٰلَكُم بَيْنَكُم بِٱلْبَٰطِلِ وَتُدْلُوا۟ بِهَآ إِلَى ٱلْحُكَّامِ لِتَأْكُلُوا۟ فَرِيقًۭا مِّنْ أَمْوَٰلِ ٱلنَّاسِ بِٱلْإِثْمِ وَأَنتُمْ تَعْلَمُونَ`,
       textFrench: `Et ne dévorez pas mutuellement et illicitement vos biens; et ne vous en servez pas pour corrompre des juges pour vous permettre de dévorer une partie des biens des gens, injustement et sciemment.`,
       transliteration: `Wa laa taakuloo amwaalakum bainakum bilbaatili wa tudloo bihaaa ilal hukkaami litaakuloo fareeqam min amwaalin naasi bil ismi wa antum ta'lamoon`,
+      commentary: {
+        context: "Interdiction de dévorer les biens d'autrui injustement et de corrompre les juges pour s'emparer des richesses des gens. Transition entre les prescriptions du jeûne et les questions sociales.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -504,6 +886,11 @@ export const hizb03: Hizb = {
       textArabic: `۞ يَسْـَٔلُونَكَ عَنِ ٱلْأَهِلَّةِ ۖ قُلْ هِىَ مَوَٰقِيتُ لِلنَّاسِ وَٱلْحَجِّ ۗ وَلَيْسَ ٱلْبِرُّ بِأَن تَأْتُوا۟ ٱلْبُيُوتَ مِن ظُهُورِهَا وَلَٰكِنَّ ٱلْبِرَّ مَنِ ٱتَّقَىٰ ۗ وَأْتُوا۟ ٱلْبُيُوتَ مِنْ أَبْوَٰبِهَا ۚ وَٱتَّقُوا۟ ٱللَّهَ لَعَلَّكُمْ تُفْلِحُونَ`,
       textFrench: `Ils t'interrogent sur les nouvelles lunes - Dis: «Elles servent aux gens pour compter le temps, et aussi pour le hajj [pèlerinage]. Et ce n'est pas un acte de bienfaisance que de rentrer chez vous par l'arrière des maisons. Mais la bonté pieuse consiste à craindre Allah. Entrez donc dans les maisons par leurs portes. Et craignez Allah, afin que vous réussissiez!`,
       transliteration: `Yas'aloonaka 'anil ahillati qul hiya mawaaqeetu linnaasi wal Hajj; wa laisal birru bi an taatul buyoota min zuhoorihaa wa laakinnal birra manit taqaa; waatul buyoota min abwaa bihaa; wattaqullaaha la'allakum tuflihoon`,
+      commentary: {
+        context: "Question sur les croissants de lune : ils servent de repères temporels pour les gens et le Hajj. Correction d'une pratique superstitieuse préislamique et rappel que la vraie piété est la taqwa.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -514,6 +901,25 @@ export const hizb03: Hizb = {
       textArabic: `وَقَٰتِلُوا۟ فِى سَبِيلِ ٱللَّهِ ٱلَّذِينَ يُقَٰتِلُونَكُمْ وَلَا تَعْتَدُوٓا۟ ۚ إِنَّ ٱللَّهَ لَا يُحِبُّ ٱلْمُعْتَدِينَ`,
       textFrench: `Combattez dans le sentier d'Allah ceux qui vous combattent, et ne transgressez pas. Certes, Allah n'aime pas les transgresseurs!`,
       transliteration: `Wa qaatiloo fee sabeelillaahil lazeena yuqaatiloonakum wa laa ta'tadooo; innal laaha laa yuhibbul mu'tadeen`,
+      commentary: {
+        context: "Premier verset sur le combat (qital) dans le sentier d'Allah, posant d'emblée les limites éthiques fondamentales : ne combattre que ceux qui vous combattent et ne jamais transgresser les limites.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "« Combattez dans le sentier d'Allah ceux qui vous combattent » — le combat est défensif et limité à ceux qui portent les armes contre les musulmans. « Ne transgressez pas » : cette interdiction englobe le fait de tuer les femmes, les enfants, les vieillards, les moines, ceux qui n'ont pas participé au combat, et de mutiler les corps. Allah n'aime pas les transgresseurs, même en situation de guerre.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 190",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ce verset pose les bases éthiques du jihad en islam : pas d'agression, pas d'excès. Le combat n'est autorisé que contre ceux qui combattent les musulmans. Ibn Abbas et d'autres ont dit que « ne transgressez pas » signifie : ne tuez pas les femmes, les enfants, les vieillards et ceux qui ne combattent pas. C'est le premier verset révélé au sujet du combat, à Médine.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 190",
+          },
+        ],
+        nuances: [
+          "Le verset lie le combat à « fi sabilillah » (dans le sentier d'Allah) — toute motivation autre que la cause divine est exclue.",
+          "L'interdiction de transgression (i'tida) montre que même en guerre, l'éthique islamique impose des limites strictes.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -524,6 +930,11 @@ export const hizb03: Hizb = {
       textArabic: `وَٱقْتُلُوهُمْ حَيْثُ ثَقِفْتُمُوهُمْ وَأَخْرِجُوهُم مِّنْ حَيْثُ أَخْرَجُوكُمْ ۚ وَٱلْفِتْنَةُ أَشَدُّ مِنَ ٱلْقَتْلِ ۚ وَلَا تُقَٰتِلُوهُمْ عِندَ ٱلْمَسْجِدِ ٱلْحَرَامِ حَتَّىٰ يُقَٰتِلُوكُمْ فِيهِ ۖ فَإِن قَٰتَلُوكُمْ فَٱقْتُلُوهُمْ ۗ كَذَٰلِكَ جَزَآءُ ٱلْكَٰفِرِينَ`,
       textFrench: `Et tuez-les, où que vous les rencontriez; et chassez-les d'où ils vous ont chassés: l'association est plus grave que le meurtre. Mais ne les combattez pas près de la Mosquée sacrée avant qu'ils ne vous y aient combattus. S'ils vous y combattent, tuez-les donc. Telle est la rétribution des mécréants.`,
       transliteration: `Waqtuloohum haisu saqif tumoohum wa akhrijoohum min haisu akhrajookum; walfitnatu ashaddu minal qatl; wa laa tuqaatiloohum 'indal Majidil Haraami hattaa yaqaatilookum feehi fa in qaatalookum faqtuloohum; kazaalika jazaaa'ul kaafireen`,
+      commentary: {
+        context: "Suite des règles du combat : combattre ceux qui ont chassé les musulmans de La Mecque. La persécution religieuse (fitna) est pire que le meurtre. Interdiction de combattre près de la Mosquée sacrée sauf en cas de légitime défense.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -534,6 +945,11 @@ export const hizb03: Hizb = {
       textArabic: `فَإِنِ ٱنتَهَوْا۟ فَإِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ`,
       textFrench: `S'ils cessent, Allah est, certes, Pardonneur et Miséricordieux.`,
       transliteration: `Fa ini-ntahaw fa innal laaha Ghafoorur Raheem`,
+      commentary: {
+        context: "Ouverture au pardon : si les ennemis cessent leur agression et leur mécréance, Allah est Pardonneur et Miséricordieux. La porte du repentir reste ouverte.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -544,6 +960,11 @@ export const hizb03: Hizb = {
       textArabic: `وَقَٰتِلُوهُمْ حَتَّىٰ لَا تَكُونَ فِتْنَةٌۭ وَيَكُونَ ٱلدِّينُ لِلَّهِ ۖ فَإِنِ ٱنتَهَوْا۟ فَلَا عُدْوَٰنَ إِلَّا عَلَى ٱلظَّٰلِمِينَ`,
       textFrench: `Et combattez-les jusqu'à ce qu'il n'y ait plus d'association et que la religion soit entièrement à Allah seul. S'ils cessent, donc plus d'hostilités, sauf contre les injustes.`,
       transliteration: `Wa qaatiloohum hatta laa takoona fitnatunw wa yakoonad deenu lillaahi fa-inin tahaw falaa 'udwaana illaa 'alaz zaalimeen`,
+      commentary: {
+        context: "L'objectif du combat : mettre fin à la persécution religieuse (fitna) pour que la religion soit vouée à Allah seul. Si l'ennemi cesse, pas d'hostilité sauf contre les injustes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -554,6 +975,11 @@ export const hizb03: Hizb = {
       textArabic: `ٱلشَّهْرُ ٱلْحَرَامُ بِٱلشَّهْرِ ٱلْحَرَامِ وَٱلْحُرُمَٰتُ قِصَاصٌۭ ۚ فَمَنِ ٱعْتَدَىٰ عَلَيْكُمْ فَٱعْتَدُوا۟ عَلَيْهِ بِمِثْلِ مَا ٱعْتَدَىٰ عَلَيْكُمْ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ مَعَ ٱلْمُتَّقِينَ`,
       textFrench: `Le Mois sacré pour le mois sacré! - Le talion s'applique à toutes choses sacrées -. Donc, quiconque transgresse contre vous, transgressez contre lui, à transgression égale. Et craignez Allah. Et sachez qu'Allah est avec les pieux.`,
       transliteration: `Ash Shahrul Haraamu bish Shahril Haraami wal hurumaatu qisaas; famani'tadaa 'alaikum fa'tadoo 'alaihi bimsisli ma'tadaa 'alaikum; wattaqul laaha wa'lamooo annal laaha ma'al muttaqeen`,
+      commentary: {
+        context: "Principe de réciprocité dans les mois sacrés : le talion s'applique aux choses sacrées. Quiconque transgresse contre vous, répondez à mesure égale, mais craignez Allah.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -564,6 +990,20 @@ export const hizb03: Hizb = {
       textArabic: `وَأَنفِقُوا۟ فِى سَبِيلِ ٱللَّهِ وَلَا تُلْقُوا۟ بِأَيْدِيكُمْ إِلَى ٱلتَّهْلُكَةِ ۛ وَأَحْسِنُوٓا۟ ۛ إِنَّ ٱللَّهَ يُحِبُّ ٱلْمُحْسِنِينَ`,
       textFrench: `Et dépensez dans le sentier d'Allah. Et ne vous jetez pas par vos propres mains dans la destruction. Et faites le bien. Car Allah aime les bienfaisants.`,
       transliteration: `Wa anfiqoo fee sabeelil laahi wa laa tulqoo bi aydeekum ilat tahlukati wa ahsinoo; innal laaha yuhibbul muhsineen`,
+      commentary: {
+        context: "Ordre de dépenser dans le sentier d'Allah et avertissement contre l'auto-destruction. Le verset se conclut par l'appel à l'excellence (ihsan) : Allah aime les bienfaisants.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ne pas dépenser pour la cause d'Allah, c'est se jeter dans la destruction (tahluka), car abandonner le jihad et l'effort dans le sentier d'Allah mène à la domination des ennemis et à la perte de la communauté. Le verset se termine par « wa ahsinu » (faites le bien) et « innallaha yuhibbul-muhsinin » — l'ihsan (excellence) est le sommet de l'adoration, et Allah aime ceux qui le pratiquent.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 195",
+          },
+        ],
+        nuances: [
+          "Abu Ayyub al-Ansari a expliqué que « se jeter dans la destruction » signifie abandonner la dépense dans le sentier d'Allah et se consacrer uniquement à ses biens (rapporté par at-Tirmidhi).",
+          "Le verset associe la dépense matérielle à l'ihsan (excellence), montrant que la générosité est une forme d'excellence spirituelle.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -574,6 +1014,11 @@ export const hizb03: Hizb = {
       textArabic: `وَأَتِمُّوا۟ ٱلْحَجَّ وَٱلْعُمْرَةَ لِلَّهِ ۚ فَإِنْ أُحْصِرْتُمْ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۖ وَلَا تَحْلِقُوا۟ رُءُوسَكُمْ حَتَّىٰ يَبْلُغَ ٱلْهَدْىُ مَحِلَّهُۥ ۚ فَمَن كَانَ مِنكُم مَّرِيضًا أَوْ بِهِۦٓ أَذًۭى مِّن رَّأْسِهِۦ فَفِدْيَةٌۭ مِّن صِيَامٍ أَوْ صَدَقَةٍ أَوْ نُسُكٍۢ ۚ فَإِذَآ أَمِنتُمْ فَمَن تَمَتَّعَ بِٱلْعُمْرَةِ إِلَى ٱلْحَجِّ فَمَا ٱسْتَيْسَرَ مِنَ ٱلْهَدْىِ ۚ فَمَن لَّمْ يَجِدْ فَصِيَامُ ثَلَٰثَةِ أَيَّامٍۢ فِى ٱلْحَجِّ وَسَبْعَةٍ إِذَا رَجَعْتُمْ ۗ تِلْكَ عَشَرَةٌۭ كَامِلَةٌۭ ۗ ذَٰلِكَ لِمَن لَّمْ يَكُنْ أَهْلُهُۥ حَاضِرِى ٱلْمَسْجِدِ ٱلْحَرَامِ ۚ وَٱتَّقُوا۟ ٱللَّهَ وَٱعْلَمُوٓا۟ أَنَّ ٱللَّهَ شَدِيدُ ٱلْعِقَابِ`,
       textFrench: `Et accomplissez pour Allah le pèlerinage et l'Umra. Si vous en êtes empêchés, alors faites un sacrifice qui vous soit facile. Et ne rasez pas vos têtes avant que l'offrande [l'animal à sacrifier] n'ait atteint son lieu d'immolation. Si l'un d'entre vous est malade ou souffre d'une affection de la tête (et doit se raser), qu'il se rachète alors par un Siyâm ou par une aumône ou par un sacrifice. Quand vous retrouverez ensuite la paix, quiconque a joui d'une vie normale après avoir fait l'Umra en attendant le pèlerinage, doit faire un sacrifice qui lui soit facile. S'il n'a pas les moyens qu'il jeûne trois jours pendant le pèlerinage et sept jours une fois rentré chez lui, soit en tout dix jours. Cela est prescrit pour celui dont la famille n'habite pas auprès de la Mosquée sacrée. Et craignez Allah. Et sachez qu'Allah est dur en punition.`,
       transliteration: `Wa atimmul Hajja wal Umarata lillaah; fain uhsirtum famas taisara minal hadyi walaa tahliqoo ru'oosakum hatta yablughal hadyu mahillah; faman kaana minkum mareedan aw biheee azam mir raasihee fafidyatum min Siyaamin aw sadaqatin aw nusuk; fa izaaa amintum faman tamatta'a bil 'Umrati ilal Hajji famastaisara minal hady; famal lam yajid fa Siyaamu salaasti ayyaamin fil Hajji wa sab'atin izaa raja'tum; tilka 'asharatun kaamilah; zaalika limal lam yakun ahluhoo haadiril Masjidil Haraam; wattaqul laaha wa'lamoo annal laaha shadeedul'iqaab`,
+      commentary: {
+        context: "Règles détaillées du Hajj et de la 'Umra : accomplissement complet pour Allah, sacrifice en cas d'empêchement, compensation pour le rasage anticipé, et règle du tamattu' (combinaison 'Umra-Hajj) avec jeûne de substitution.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -584,6 +1029,20 @@ export const hizb03: Hizb = {
       textArabic: `ٱلْحَجُّ أَشْهُرٌۭ مَّعْلُومَٰتٌۭ ۚ فَمَن فَرَضَ فِيهِنَّ ٱلْحَجَّ فَلَا رَفَثَ وَلَا فُسُوقَ وَلَا جِدَالَ فِى ٱلْحَجِّ ۗ وَمَا تَفْعَلُوا۟ مِنْ خَيْرٍۢ يَعْلَمْهُ ٱللَّهُ ۗ وَتَزَوَّدُوا۟ فَإِنَّ خَيْرَ ٱلزَّادِ ٱلتَّقْوَىٰ ۚ وَٱتَّقُونِ يَٰٓأُو۟لِى ٱلْأَلْبَٰبِ`,
       textFrench: `Le pèlerinage a lieu dans des mois connus. Si l'on se décide de l'accomplir, alors point de rapport sexuel, point de perversité, point de dispute pendant le pèlerinage. Et le bien que vous faites, Allah le sait. Et prenez vos provisions; mais vraiment la meilleure provision est la piété. Et redoutez-Moi, ô doués d'intelligence`,
       transliteration: `Al-Hajju ashhurum ma'-loomaat; faman farada feeinnal hajja falaa rafasa wa laa fusooqa wa laa jidaala fil Hajj; wa maa taf'aloo min khairiny ya'lamhul laah; wa tazawwadoo fa inna khairaz zaadit taqwaa; wattaqooni yaaa ulil albaab`,
+      commentary: {
+        context: "Les mois du Hajj et l'éthique du pèlerin : pas de rapports intimes, pas de désobéissance, pas de dispute durant le Hajj. Le meilleur viatique est la taqwa (piété). Un condensé d'éducation spirituelle.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "« Le Hajj a lieu en des mois connus » — ce sont Shawwal, Dhul-Qi'da et les dix premiers jours de Dhul-Hijja. Trois interdictions sont posées pour le pèlerin : le rafath (rapports conjugaux et paroles obscènes), le fusuq (toute désobéissance à Allah) et le jidal (disputes inutiles). Puis Allah encourage le bien : « Tout bien que vous faites, Allah le sait. » Enfin, « la meilleure provision est la taqwa » — certains Arabes venaient au Hajj sans provisions en prétendant s'en remettre à Allah, mais la vraie confiance en Allah n'exclut pas les causes.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 197",
+          },
+        ],
+        nuances: [
+          "Les trois interdictions (rafath, fusuq, jidal) visent à purifier le pèlerin de corps, d'acte et de parole durant le Hajj.",
+          "« Tazawwadu fa inna khayra az-zad at-taqwa » est devenu un proverbe : prenez provision matérielle et spirituelle, mais la meilleure reste la piété.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -594,6 +1053,11 @@ export const hizb03: Hizb = {
       textArabic: `لَيْسَ عَلَيْكُمْ جُنَاحٌ أَن تَبْتَغُوا۟ فَضْلًۭا مِّن رَّبِّكُمْ ۚ فَإِذَآ أَفَضْتُم مِّنْ عَرَفَٰتٍۢ فَٱذْكُرُوا۟ ٱللَّهَ عِندَ ٱلْمَشْعَرِ ٱلْحَرَامِ ۖ وَٱذْكُرُوهُ كَمَا هَدَىٰكُمْ وَإِن كُنتُم مِّن قَبْلِهِۦ لَمِنَ ٱلضَّآلِّينَ`,
       textFrench: `Ce n'est pas un péché que d'aller en quête de quelque grâce de votre Seigneur. Puis, quand vous déferlez depuis 'Arafât, invoquez Allah, à Al-Mach'ar-al-haram (Al-Muzdalifa). Et invoquez-Le comme Il vous a montré la bonne voie, quoiqu'auparavant vous étiez du nombre des égarés.`,
       transliteration: `Laisa 'alaikum junaahun an tabtaghoo fad lam mir rabbikum; fa izaaa afadtum min 'Arafaatin fazkurul laaha 'indal-Mash'aril Haraami waz kuroohu kamaa hadaakum wa in kuntum min qablihee laminad daaaleen`,
+      commentary: {
+        context: "Permission de commercer durant le Hajj. Après le déferlement depuis 'Arafat, invoquer Allah à al-Mash'ar al-Haram (Muzdalifa). Rappel de la guidance divine après l'égarement passé.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -604,6 +1068,11 @@ export const hizb03: Hizb = {
       textArabic: `ثُمَّ أَفِيضُوا۟ مِنْ حَيْثُ أَفَاضَ ٱلنَّاسُ وَٱسْتَغْفِرُوا۟ ٱللَّهَ ۚ إِنَّ ٱللَّهَ غَفُورٌۭ رَّحِيمٌۭ`,
       textFrench: `Ensuite déferlez par où les gens déferlèrent, et demandez pardon à Allah. Car Allah est Pardonneur et Miséricordieux.`,
       transliteration: `Summa afeedoo min haisu afaadan naasu wastagh firullaah; innnal laaha Ghafoo rur-Raheem`,
+      commentary: {
+        context: "Ordre de déferler depuis 'Arafat comme le font tous les pèlerins, sans distinction, et de demander pardon à Allah. Correction d'une pratique de Quraysh qui s'arrêtait à Muzdalifa sans aller à 'Arafat.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -614,6 +1083,11 @@ export const hizb03: Hizb = {
       textArabic: `فَإِذَا قَضَيْتُم مَّنَٰسِكَكُمْ فَٱذْكُرُوا۟ ٱللَّهَ كَذِكْرِكُمْ ءَابَآءَكُمْ أَوْ أَشَدَّ ذِكْرًۭا ۗ فَمِنَ ٱلنَّاسِ مَن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا وَمَا لَهُۥ فِى ٱلْءَاخِرَةِ مِنْ خَلَٰقٍۢ`,
       textFrench: `Et quand vous aurez achevé vos rites, alors invoquez Allah comme vous invoquez vos pères, et plus ardemment encore. Mais il est des gens qui disent seulement: «Seigneur! Accorde nous [le bien] ici-bas!» - Pour ceux-là, nulle part dans l'au-delà.`,
       transliteration: `Fa-izan qadaitum manaa sikakum fazkurul laaha kazikrikum aabaaa'akum aw ashadda zikraa; faminannaasi mai yaqoolu Rabbanaaa aatinaa fiddunyaa wa maa lahoo fil Aakhirati min khalaaq`,
+      commentary: {
+        context: "Après les rites du Hajj, invoquer Allah intensément. Critique de ceux qui ne demandent que les biens de ce monde sans se soucier de l'au-delà : ils n'auront aucune part dans l'autre vie.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -624,6 +1098,34 @@ export const hizb03: Hizb = {
       textArabic: `وَمِنْهُم مَّن يَقُولُ رَبَّنَآ ءَاتِنَا فِى ٱلدُّنْيَا حَسَنَةًۭ وَفِى ٱلْءَاخِرَةِ حَسَنَةًۭ وَقِنَا عَذَابَ ٱلنَّارِ`,
       textFrench: `Et il est des gens qui disent: «Seigneur! Accorde nous belle part ici-bas, et belle part aussi dans l'au-delà; et protège-nous du châtiment du Feu!»`,
       transliteration: `Wa minhum mai yaqoolu rabbanaaa aatina fid dunyaa hasanatawn wa fil aakhirati hasanatanw wa qinaa azaaban Naar`,
+      commentary: {
+        context: "L'invocation la plus célèbre du Coran, réunissant le bien de ce monde et de l'au-delà, et la protection contre le Feu. Modèle parfait d'équilibre entre les deux vies, c'était la du'a la plus fréquente du Prophète ﷺ.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Cette du'a réunit tout le bien de ce monde et de l'au-delà. La « hasana » (belle part) de ce monde inclut la santé, la provision ample, la science bénéfique, les bonnes actions et une épouse vertueuse. Celle de l'au-delà inclut le Paradis et tout ce qui y mène : le pardon, la satisfaction d'Allah et la sécurité contre la terreur du Jour dernier. « Wa qina 'adhab an-nar » (protège-nous du Feu) complète la demande en implorant la protection contre le châtiment.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 201",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Le Prophète ﷺ faisait très souvent cette invocation, comme le rapportent al-Bukhari et Muslim d'après Anas ibn Malik qui dit : « L'invocation la plus fréquente du Prophète ﷺ était : Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhab an-nar. » Cette du'a est recommandée entre les deux coins yéménites lors du tawaf autour de la Ka'ba.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 201",
+          },
+        ],
+        nuances: [
+          "Contrairement à ceux qui ne demandent que la dunya (verset 200), les croyants demandent l'équilibre entre les deux mondes — c'est le modèle coranique de l'invocation.",
+          "La « hasana » est volontairement générale pour englober tout type de bien : matériel, spirituel, familial et social.",
+        ],
+        relatedHadiths: [
+          {
+            collection: "Sahih al-Bukhari",
+            number: "6389",
+            narrator: "Anas ibn Malik",
+            text: "L'invocation la plus fréquente du Prophète ﷺ était : « Rabbana atina fid-dunya hasanatan wa fil-akhirati hasanatan wa qina 'adhab an-nar. »",
+            grade: "Sahih",
+          },
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -634,6 +1136,11 @@ export const hizb03: Hizb = {
       textArabic: `أُو۟لَٰٓئِكَ لَهُمْ نَصِيبٌۭ مِّمَّا كَسَبُوا۟ ۚ وَٱللَّهُ سَرِيعُ ٱلْحِسَابِ`,
       textFrench: `Ceux-là auront une part de ce qu'ils auront acquis. Et Allah est prompt à faire rendre compte.`,
       transliteration: `Ulaaa'ika lahum naseebum mimmaa kasaboo; wal laahu saree'ul hisaab`,
+      commentary: {
+        context: "Conclusion du hizb : chacun récoltera sa part selon ce qu'il a acquis de bonnes oeuvres. Allah est prompt dans le règlement des comptes. Rappel de la responsabilité individuelle.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     }
   ],
   // synthesis: non disponible — sera enrichi progressivement, insha'Allah.

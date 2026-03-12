@@ -14,15 +14,33 @@ import type { Hizb } from '../types';
 
 export const hizb02: Hizb = {
   number: 2,
-  title: `Hizb 2 — Al-Baqara (البقرة)`,
+  title: "Les manquements des Fils d'Israël et l'héritage d'Ibrahim",
   surahsCovered: ["Al-Baqara (75-141)"],
-  context: `Ce hizb couvre Al-Baqara, versets 75 à 141. Al-Baqara : médinoise — Guidance, législation, récits des Fils d'Israël, loi islamique.`,
-  linkWithPrevious: `Ce hizb (n°2) fait suite au hizb 1. Il s'inscrit dans la progression thématique du Coran.`,
+  context:
+    "Ce hizb poursuit et conclut la longue section sur les Fils d'Israël, détaillant leurs manquements les plus graves : falsification des Écritures, rupture des pactes, recours à la sorcellerie, et rejet des prophètes (dont Jésus et Muhammad ﷺ). Puis le discours s'élève vers Ibrahim, père du monothéisme, et la construction de la Ka'ba, établissant la légitimité de la qibla et de la communauté musulmane comme héritière de la voie d'Ibrahim.",
+  linkWithPrevious:
+    "Le hizb 1 se terminait sur l'endurcissement des cœurs des Fils d'Israël (2:74). Ce hizb approfondit leurs déviances avant de tourner la page vers Ibrahim et l'identité propre de la communauté musulmane.",
   passageAnalysis: [
     {
-      title: `Al-Baqara — versets 75 à 141`,
-      content: `Al-Baqara est une sourate médinoise. Thème principal : Guidance, législation, récits des Fils d'Israël, loi islamique. Commentaire détaillé à venir, insha'Allah.`,
-    }
+      title: "Al-Baqara (2:75-86) — Falsification et rupture du pacte",
+      content:
+        "Suite des reproches aux Fils d'Israël : falsification de la Torah, écriture de textes attribués faussement à Allah pour un profit dérisoire, rupture du pacte divin (ne pas verser le sang, ne pas s'expulser mutuellement), et croyance sélective dans les Écritures.",
+    },
+    {
+      title: "Al-Baqara (2:87-103) — Rejet des prophètes et sorcellerie",
+      content:
+        "Jésus fils de Marie est envoyé avec les preuves et soutenu par l'Esprit Saint (Jibrîl), mais les Fils d'Israël traitent certains prophètes de menteurs et en tuent d'autres. Le passage aborde ensuite Jibrîl comme vecteur de la révélation, puis le récit de Harut et Marut et la mise en garde contre la sorcellerie.",
+    },
+    {
+      title: "Al-Baqara (2:104-121) — Transition vers la communauté musulmane",
+      content:
+        "Introduction du principe d'abrogation (naskh), affirmation de la souveraineté d'Allah sur l'Orient et l'Occident, et mise en garde contre les tentatives des gens du Livre de détourner les musulmans de leur foi. Le croyant est appelé à la patience et à la confiance en la promesse divine.",
+    },
+    {
+      title: "Al-Baqara (2:122-141) — Ibrahim et la Ka'ba",
+      content:
+        "Section majeure : Ibrahim est élevé au rang d'imam pour l'humanité, il construit la Ka'ba avec Ismaïl en invoquant Allah. La voie d'Ibrahim (hanifiyya) est définie comme la soumission à Allah (islam). Le hizb conclut en affirmant que les musulmans croient en tous les prophètes sans distinction et que la vraie « teinture » est celle d'Allah (sibghat Allah).",
+    },
   ],
   verses: [
     {
@@ -34,6 +52,11 @@ export const hizb02: Hizb = {
       textArabic: `۞ أَفَتَطْمَعُونَ أَن يُؤْمِنُوا۟ لَكُمْ وَقَدْ كَانَ فَرِيقٌۭ مِّنْهُمْ يَسْمَعُونَ كَلَٰمَ ٱللَّهِ ثُمَّ يُحَرِّفُونَهُۥ مِنۢ بَعْدِ مَا عَقَلُوهُ وَهُمْ يَعْلَمُونَ`,
       textFrench: `- Eh bien, espérez-vous [Musulmans] que des pareils gens (les Juifs) vous partageront la foi? alors qu'un groupe d'entre eux; après avoir entendu et compris la parole d'Allah, la falsifièrent sciemment.`,
       transliteration: `Afatatma'oona ai yu'minoo lakum wa qad kaana fareequm minhum yasma'oona Kalaamal laahi summa yuharri foonahoo mim ba'di maa'aqaloohu wa hum ya'lamoon`,
+      commentary: {
+        context: "Transition après le récit des bienfaits. Allah s'adresse aux musulmans : n'espérez pas que ces gens croient, car un groupe d'entre eux falsifiait sciemment la parole d'Allah (la Torah) après l'avoir comprise.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -44,6 +67,11 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذَا لَقُوا۟ ٱلَّذِينَ ءَامَنُوا۟ قَالُوٓا۟ ءَامَنَّا وَإِذَا خَلَا بَعْضُهُمْ إِلَىٰ بَعْضٍۢ قَالُوٓا۟ أَتُحَدِّثُونَهُم بِمَا فَتَحَ ٱللَّهُ عَلَيْكُمْ لِيُحَآجُّوكُم بِهِۦ عِندَ رَبِّكُمْ ۚ أَفَلَا تَعْقِلُونَ`,
       textFrench: `Et quand ils rencontrent des croyants, ils disent: «Nous croyons» et, une fois seuls entre eux, ils disent: «Allez-vous confier aux musulmans ce qu'Allah vous a révélé pour leur fournir, ainsi, un argument contre vous devant votre Seigneur! Etes-vous donc dépourvus de raison?».`,
       transliteration: `Wa izaa laqul lazeena aamanoo qaalooo aamannaa wa izaakhalaa ba'duhum ilaa ba'din qaalooo atuhaddisoonahum bimaa fatahal laahu 'alaikum liyuhaajjookum bihee 'inda rabbikum; afalaa ta'qiloon`,
+      commentary: {
+        context: "Double discours : devant les musulmans ils disent « nous croyons », puis entre eux se reprochent d'avoir partagé ce qu'Allah leur a révélé (descriptions du Prophète ﷺ dans la Torah).",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -54,6 +82,11 @@ export const hizb02: Hizb = {
       textArabic: `أَوَلَا يَعْلَمُونَ أَنَّ ٱللَّهَ يَعْلَمُ مَا يُسِرُّونَ وَمَا يُعْلِنُونَ`,
       textFrench: `- Ne savent-ils pas qu'en vérité Allah sait ce qu'ils cachent et ce qu'ils divulguent?`,
       transliteration: `Awalaa ya'lamoona annal laaha ya'lamu maa yusirroona wa maa yu'linoon`,
+      commentary: {
+        context: "Réponse divine à leur duplicité : Allah connaît ce qu'ils cachent et ce qu'ils divulguent. Rien n'échappe à Sa science.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -64,6 +97,11 @@ export const hizb02: Hizb = {
       textArabic: `وَمِنْهُمْ أُمِّيُّونَ لَا يَعْلَمُونَ ٱلْكِتَٰبَ إِلَّآ أَمَانِىَّ وَإِنْ هُمْ إِلَّا يَظُنُّونَ`,
       textFrench: `Et il y a parmi eux des illettrés qui ne savent rien du Livre hormis des prétentions et ils ne font que des conjectures.`,
       transliteration: `Wa minhum ummiyyoona laa ya'lamoonal kitaaba illaaa amaaniyya wa in hum illaa yazunnoon`,
+      commentary: {
+        context: "Parmi eux, des illettrés (ummiyyun) qui ne connaissent du Livre que des chimères (amaniyy) et des conjectures. Ils suivent aveuglément sans véritable connaissance.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -74,6 +112,24 @@ export const hizb02: Hizb = {
       textArabic: `فَوَيْلٌۭ لِّلَّذِينَ يَكْتُبُونَ ٱلْكِتَٰبَ بِأَيْدِيهِمْ ثُمَّ يَقُولُونَ هَٰذَا مِنْ عِندِ ٱللَّهِ لِيَشْتَرُوا۟ بِهِۦ ثَمَنًۭا قَلِيلًۭا ۖ فَوَيْلٌۭ لَّهُم مِّمَّا كَتَبَتْ أَيْدِيهِمْ وَوَيْلٌۭ لَّهُم مِّمَّا يَكْسِبُونَ`,
       textFrench: `Malheur, donc, à ceux qui de leurs propres mains composent un livre puis le présentent comme venant d'Allah pour en tirer un vil profit! - Malheur à eux, donc, à cause de ce que leurs mains ont écrit, et malheur à eux à cause de ce qu'ils en profitent!`,
       transliteration: `Fawailul lillazeena yaktuboonal kitaaba bi aydddhim summa yaqooloona haazaa min 'indil laahi liyashtaroo bihee samanan qaleelan fawilul lahum mimaa katabat aydeehim wa wailul lahum mimmaa yaksiboon`,
+      commentary: {
+        context: "Verset clé sur la falsification (tahrif). « Malheur (wayl) à ceux qui écrivent le Livre de leurs propres mains puis disent : ceci vient d'Allah, pour en tirer un vil prix. » Double malédiction : pour ce qu'ils ont écrit et pour ce qu'ils en tirent.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset est l'une des plus sévères menaces du Coran. Il vise ceux qui falsifient la religion d'Allah en attribuant à Allah ce qu'Il n'a pas dit, pour obtenir un profit mondain — que ce soit argent, prestige ou pouvoir. Le mot « wayl » (malheur) désigne une destruction intense ou une vallée de l'Enfer. La menace est doublée : pour l'acte d'écrire le faux, et pour le profit qu'ils en tirent.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 79",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ce verset concerne les rabbins qui modifiaient les textes de la Torah, changeant les descriptions du Prophète Muhammad ﷺ et altérant les jugements divins pour plaire aux gens ou en tirer un bénéfice matériel. Ils écrivaient des choses de leur propre composition puis les attribuaient à Allah. C'est le summum de la trahison envers Allah et envers les gens.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 79",
+          },
+        ],
+        nuances: [
+          "Ce verset s'applique à quiconque attribue à Allah des propos qu'Il n'a pas tenus, que ce soit par falsification de textes, fatwas sans science, ou interprétations inventées pour des intérêts personnels.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -84,6 +140,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالُوا۟ لَن تَمَسَّنَا ٱلنَّارُ إِلَّآ أَيَّامًۭا مَّعْدُودَةًۭ ۚ قُلْ أَتَّخَذْتُمْ عِندَ ٱللَّهِ عَهْدًۭا فَلَن يُخْلِفَ ٱللَّهُ عَهْدَهُۥٓ ۖ أَمْ تَقُولُونَ عَلَى ٱللَّهِ مَا لَا تَعْلَمُونَ`,
       textFrench: `Et ils ont dit: «Le Feu ne nous touchera que pour quelques jours comptés!». Dis: «Auriez-vous pris un engagement avec Allah - car Allah ne manque jamais à Son engagement; - non, mais vous dites sur Allah ce que vous ne savez pas».`,
       transliteration: `Wa qaaloo lan tamassanan Naaru illaaa ayyaamam ma'doo dah; qul attakhaztum 'indal laahi 'ahdan falai yukhlifal laahu 'ahdahooo am taqooloona 'alal laahi maa laa ta'lamoon`,
+      commentary: {
+        context: "Fausse assurance : « Le Feu ne nous touchera que quelques jours comptés. » Allah les met au défi : avez-vous un pacte avec Allah, ou dites-vous sur Allah ce que vous ne savez pas ?",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -94,6 +155,11 @@ export const hizb02: Hizb = {
       textArabic: `بَلَىٰ مَن كَسَبَ سَيِّئَةًۭ وَأَحَٰطَتْ بِهِۦ خَطِيٓـَٔتُهُۥ فَأُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلنَّارِ ۖ هُمْ فِيهَا خَٰلِدُونَ`,
       textFrench: `Bien au contraire! Ceux qui font le mal et qui se font cerner par leurs péchés, ceux-là sont les gens du Feu où ils demeureront éternellement.`,
       transliteration: `Balaa man kasaba sayyi'atanw wa ahaatat bihee khateee'atuhoo fa-ulaaa'ika Ashaabun Naari hum feehaa khaalidoon`,
+      commentary: {
+        context: "Réfutation : celui dont les péchés l'ont cerné de toutes parts (le shirk ou la persistance dans le péché sans repentir), ceux-là sont les gens du Feu éternellement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -104,6 +170,11 @@ export const hizb02: Hizb = {
       textArabic: `وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّٰلِحَٰتِ أُو۟لَٰٓئِكَ أَصْحَٰبُ ٱلْجَنَّةِ ۖ هُمْ فِيهَا خَٰلِدُونَ`,
       textFrench: `Et ceux qui croient et pratiquent les bonnes œuvres, ceux-là sont les gens du Paradis où ils demeureront éternellement.`,
       transliteration: `Wallazeena aamanoo wa 'amilus saalihaati ulaaa'ika Ashaabul Jannati hum feeha khaalidoon`,
+      commentary: {
+        context: "Pendant positif : ceux qui croient et font le bien sont les gens du Paradis pour l'éternité. La foi et les bonnes œuvres sont toujours couplées dans le Coran.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -114,6 +185,19 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ أَخَذْنَا مِيثَٰقَ بَنِىٓ إِسْرَٰٓءِيلَ لَا تَعْبُدُونَ إِلَّا ٱللَّهَ وَبِٱلْوَٰلِدَيْنِ إِحْسَانًۭا وَذِى ٱلْقُرْبَىٰ وَٱلْيَتَٰمَىٰ وَٱلْمَسَٰكِينِ وَقُولُوا۟ لِلنَّاسِ حُسْنًۭا وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ثُمَّ تَوَلَّيْتُمْ إِلَّا قَلِيلًۭا مِّنكُمْ وَأَنتُم مُّعْرِضُونَ`,
       textFrench: `Et [rappelle-toi], lorsque Nous avons pris l'engagement des enfants d'Israël de n'adorer qu'Allah, de faire le bien envers les pères, les mères, les proches parents, les orphelins et les nécessiteux, d'avoir de bonnes paroles avec les gens; d'accomplir régulièrement la Salât et d'acquitter la Zakât! - Mais à l'exception d'un petit nombre de vous, vous manquiez à vos engagements en vous détournant de Nos commandements.`,
       transliteration: `Wa iz akhaznaa meesaaqa Baneee Israaa'eela laa ta'budoona illal laaha wa bil waalidaini ihsaananw wa zil qurbaa walyataamaa walmasaakeeni wa qooloo linnaasi husnanw wa aqeemus salaata wa aatuzZakaata summa tawallitum illaa qaleelam minkum wa antum mu'ridoon`,
+      commentary: {
+        context: "Verset clé rappelant le pacte complet avec les Fils d'Israël : adorer Allah seul, bienfaisance envers les parents, les proches, les orphelins, les pauvres, parler aux gens avec bonté, accomplir la prière et la zakat. Malgré tout, la plupart se sont détournés.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset rassemble les fondements de la religion dans leurs deux dimensions : les droits d'Allah (tawhid, prière, zakat) et les droits des créatures (parents, proches, orphelins, pauvres, bonne parole). La bonne parole (husnan) inclut l'ordre du bien, l'interdiction du mal, l'enseignement, la réconciliation, et toute parole qui rapproche d'Allah. Malgré la clarté de ces commandements, ils se sont détournés sauf un petit nombre.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 83",
+          },
+        ],
+        nuances: [
+          "Ces commandements sont universels et s'appliquent à la communauté de Muhammad ﷺ autant qu'aux Fils d'Israël. Ils constituent un résumé des droits d'Allah et des droits des créatures.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -124,6 +208,11 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ لَا تَسْفِكُونَ دِمَآءَكُمْ وَلَا تُخْرِجُونَ أَنفُسَكُم مِّن دِيَٰرِكُمْ ثُمَّ أَقْرَرْتُمْ وَأَنتُمْ تَشْهَدُونَ`,
       textFrench: `Et rappelez-vous, lorsque Nous obtînmes de vous l'engagement de ne pas vous verser le sang, [par le meurtre] de ne pas vous expulser les uns les autres de vos maisons. Puis vous y avez souscrit avec votre propre témoignage.`,
       transliteration: `Wa iz akhaznaa meesaa qakum laa tasfikoona dimaaa'akum wa laa tukrijoona anfusakum min diyaarikum summa aqrartum wa antum tashhadoon`,
+      commentary: {
+        context: "Suite du pacte : ne pas verser le sang ni expulser les vôtres de leurs demeures. Ils ont acquiescé et en sont témoins, mais ont trahi chacun de ces engagements.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -134,6 +223,11 @@ export const hizb02: Hizb = {
       textArabic: `ثُمَّ أَنتُمْ هَٰٓؤُلَآءِ تَقْتُلُونَ أَنفُسَكُمْ وَتُخْرِجُونَ فَرِيقًۭا مِّنكُم مِّن دِيَٰرِهِمْ تَظَٰهَرُونَ عَلَيْهِم بِٱلْإِثْمِ وَٱلْعُدْوَٰنِ وَإِن يَأْتُوكُمْ أُسَٰرَىٰ تُفَٰدُوهُمْ وَهُوَ مُحَرَّمٌ عَلَيْكُمْ إِخْرَاجُهُمْ ۚ أَفَتُؤْمِنُونَ بِبَعْضِ ٱلْكِتَٰبِ وَتَكْفُرُونَ بِبَعْضٍۢ ۚ فَمَا جَزَآءُ مَن يَفْعَلُ ذَٰلِكَ مِنكُمْ إِلَّا خِزْىٌۭ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ وَيَوْمَ ٱلْقِيَٰمَةِ يُرَدُّونَ إِلَىٰٓ أَشَدِّ ٱلْعَذَابِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ`,
       textFrench: `Quoique ainsi engagés, voilà que vous vous entretuez, que vous expulsez de leurs maisons une partie d'entre vous contre qui vous prêtez main forte par péché et agression. Mais quelle contradiction! Si vos coreligionnaires vous viennent captifs vous les rançonnez alors qu'il vous était interdit de les expulser (de chez eux). Croyez-vous donc en une partie du Livre et rejetez-vous le reste? Ceux d'entre vous qui agissent de la sorte ne méritent que l'ignominie dans cette vie, et au Jour de la Résurrection ils seront refoulés au plus dur châtiment, et Allah n'est pas inattentif à ce que vous faites.`,
       transliteration: `Summa antum haaa'ulaaa'i taqtuloona anfusakum wa tukhrijoona fareeqam minkum min diyaarihim tazaaharoona 'alaihim bil ismi wal'udwaani wa iny yaatookum usaaraa tufaadoohum wahuwa muharramun 'alaikum ikhraajuhum; afatu' mi-noona biba'dil Kitaabi wa takfuroona biba'd; famaa jazaaa'u mai yaf'alu zaalika minkum illaa khizyun fil hayaatid-dunyaa wa yawmal qiyaamati yuraddoona ilaaa ashaddil 'azaab; wa mal laahu bighaafilin 'ammaa ta'maloon`,
+      commentary: {
+        context: "Contradiction flagrante : ils s'entretuent, s'expulsent, s'allient contre les leurs par péché et agression, puis rachètent les prisonniers (obligation qu'ils acceptent) tout en ayant violé l'interdiction de les expulser. « Croyez-vous en une partie du Livre et rejetez l'autre ? » Croyance sélective = humiliation ici-bas et châtiment le Jour du Jugement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -144,6 +238,11 @@ export const hizb02: Hizb = {
       textArabic: `أُو۟لَٰٓئِكَ ٱلَّذِينَ ٱشْتَرَوُا۟ ٱلْحَيَوٰةَ ٱلدُّنْيَا بِٱلْءَاخِرَةِ ۖ فَلَا يُخَفَّفُ عَنْهُمُ ٱلْعَذَابُ وَلَا هُمْ يُنصَرُونَ`,
       textFrench: `Voilà ceux qui échangent la vie présente contre la vie future. Eh bien, leur châtiment ne sera pas diminué. Et ils ne seront point secourus.`,
       transliteration: `Ulaaa'ikal lazeenash tarawul hayaatad dunyaa bil aakhirati falaa yukhaffafu 'anhumul 'azaabu wa laa hum yunsaroon`,
+      commentary: {
+        context: "Ceux qui ont acheté la vie d'ici-bas au prix de l'au-delà : leur châtiment ne sera pas allégé et ils ne seront pas secourus.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -154,6 +253,24 @@ export const hizb02: Hizb = {
       textArabic: `وَلَقَدْ ءَاتَيْنَا مُوسَى ٱلْكِتَٰبَ وَقَفَّيْنَا مِنۢ بَعْدِهِۦ بِٱلرُّسُلِ ۖ وَءَاتَيْنَا عِيسَى ٱبْنَ مَرْيَمَ ٱلْبَيِّنَٰتِ وَأَيَّدْنَٰهُ بِرُوحِ ٱلْقُدُسِ ۗ أَفَكُلَّمَا جَآءَكُمْ رَسُولٌۢ بِمَا لَا تَهْوَىٰٓ أَنفُسُكُمُ ٱسْتَكْبَرْتُمْ فَفَرِيقًۭا كَذَّبْتُمْ وَفَرِيقًۭا تَقْتُلُونَ`,
       textFrench: `Certes, Nous avons donné le Livre à Moïse; Nous avons envoyé après lui des prophètes successifs. Et Nous avons donné des preuves à Jésus fils de Marie, et Nous l'avons renforcé du Saint-Esprit. Est-ce qu'à chaque fois, qu'un Messager vous apportait des vérités contraires à vos souhaits vous vous enfliez d'orgueil? Vous traitiez les uns d'imposteurs et vous tuiez les autres.`,
       transliteration: `Wa laqad aatainaa Moosal Kitaaba wa qaffainaa mim ba'dihee bir Rusuli wa aatainaa 'Eesab-na-Maryamal baiyinaati wa ayyadnaahu bi Roohil Qudus; afakullamaa jaaa'akum Rasoolum bimaa laa tahwaaa anfusukumus takbartum fafareeqan kazzabtum wa fareeqan taqtuloon`,
+      commentary: {
+        context: "Verset clé sur la succession prophétique. Moïse a reçu le Livre, puis les prophètes se sont succédé, et Jésus fils de Marie a reçu les preuves et le soutien de l'Esprit Saint (Ruh al-Qudus = Jibrîl). Mais à chaque fois qu'un messager apporte ce qui déplaît à leurs âmes, ils s'enorgueillissent : certains sont traités de menteurs, d'autres sont tués.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Allah rappelle les bienfaits accordés aux Fils d'Israël : le Livre de Moïse, la succession des prophètes, et Jésus fils de Marie soutenu par l'Esprit Saint (Jibrîl). Malgré cela, chaque fois qu'un messager leur apportait ce qui contredisait leurs passions, ils s'enorgueillissaient : ils traitaient certains de menteurs et en tuaient d'autres. C'est la preuve que leur rejet n'était pas dû à un manque de preuves, mais à l'orgueil et au suivi des passions.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 87",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ruh al-Qudus (l'Esprit Saint) est Jibrîl selon la majorité des savants, comme le confirme le hadith où le Prophète ﷺ dit à Hassan ibn Thabit : « Ô Allah, soutiens-le par l'Esprit Saint. » Jésus a été distingué par des miracles extraordinaires (guérison des aveugles et lépreux, résurrection des morts par permission d'Allah), mais les Fils d'Israël ont persisté dans le rejet.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 87",
+          },
+        ],
+        nuances: [
+          "En islam, Ruh al-Qudus (l'Esprit Saint) désigne l'ange Jibrîl, et non une personne divine comme dans la théologie chrétienne. Cette distinction est fondamentale.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -164,6 +281,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالُوا۟ قُلُوبُنَا غُلْفٌۢ ۚ بَل لَّعَنَهُمُ ٱللَّهُ بِكُفْرِهِمْ فَقَلِيلًۭا مَّا يُؤْمِنُونَ`,
       textFrench: `Et ils dirent: «Nos cœurs sont enveloppés et impénétrables» - Non mais Allah les a maudits à cause de leur infidélité, leur foi est donc médiocre.`,
       transliteration: `Wa qaaloo quloobunaa ghulf; bal la'anahumul laahu bikufrihim faqaleelam maa yu'minoon`,
+      commentary: {
+        context: "Ils prétendent que leurs cœurs sont « enveloppés » (imperméables à la vérité). Allah rectifie : c'est Lui qui les a maudits à cause de leur mécréance. Seul un petit nombre croit.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -174,6 +296,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَمَّا جَآءَهُمْ كِتَٰبٌۭ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌۭ لِّمَا مَعَهُمْ وَكَانُوا۟ مِن قَبْلُ يَسْتَفْتِحُونَ عَلَى ٱلَّذِينَ كَفَرُوا۟ فَلَمَّا جَآءَهُم مَّا عَرَفُوا۟ كَفَرُوا۟ بِهِۦ ۚ فَلَعْنَةُ ٱللَّهِ عَلَى ٱلْكَٰفِرِينَ`,
       textFrench: `Et quand leur vint d'Allah un Livre confirmant celui qu'ils avaient déjà, - alors qu'auparavant ils cherchaient la suprématie sur les mécréants, - quand donc leur vint cela même qu'ils reconnaissaient, ils refusèrent d'y croire. Que la malédiction d'Allah soit sur les mécréants!`,
       transliteration: `Wa lammaa jaaa'ahum Kitaabum min 'indil laahi musaddiqul limaa ma'ahum wa kaanoo min qablu yastaftihoona 'alal lazeena kafaroo falammaa jaaa'ahum maa 'arafoo kafaroo bih; fala 'natul laahi 'alal kaafireen`,
+      commentary: {
+        context: "Avant la venue du Prophète ﷺ, ils invoquaient sa venue pour vaincre les polythéistes. Quand il est arrivé — qu'ils ont reconnu — ils l'ont rejeté. Malédiction d'Allah sur les mécréants.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -184,6 +311,11 @@ export const hizb02: Hizb = {
       textArabic: `بِئْسَمَا ٱشْتَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ أَن يَكْفُرُوا۟ بِمَآ أَنزَلَ ٱللَّهُ بَغْيًا أَن يُنَزِّلَ ٱللَّهُ مِن فَضْلِهِۦ عَلَىٰ مَن يَشَآءُ مِنْ عِبَادِهِۦ ۖ فَبَآءُو بِغَضَبٍ عَلَىٰ غَضَبٍۢ ۚ وَلِلْكَٰفِرِينَ عَذَابٌۭ مُّهِينٌۭ`,
       textFrench: `Comme est vil ce contre quoi ils ont troqué leurs âmes! Ils ne croient pas en ce qu'Allah a fait descendre, révoltés à l'idée qu'Allah, de par Sa grâce, fasse descendre la révélation sur ceux de Ses serviteurs qu'Il veut. Ils ont donc acquis colère sur colère, car un châtiment avilissant attend les infidèles!`,
       transliteration: `Bi'samash taraw biheee anfusahum ai yakfuroo bimaaa anzalal laahu baghyan ai yunazzilal laahu min fadlilhee 'alaa mai yashaaa'u min ibaadihee fabaaa'oo bighadabin 'alaa ghadab; wa lilkaafireena 'azaabum muheen`,
+      commentary: {
+        context: "Ils ont rejeté la révélation par jalousie (baghyan) qu'Allah accorde Sa faveur à qui Il veut. Colère sur colère : la première pour avoir rejeté la Torah, la seconde pour avoir rejeté le Coran.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -194,6 +326,11 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذَا قِيلَ لَهُمْ ءَامِنُوا۟ بِمَآ أَنزَلَ ٱللَّهُ قَالُوا۟ نُؤْمِنُ بِمَآ أُنزِلَ عَلَيْنَا وَيَكْفُرُونَ بِمَا وَرَآءَهُۥ وَهُوَ ٱلْحَقُّ مُصَدِّقًۭا لِّمَا مَعَهُمْ ۗ قُلْ فَلِمَ تَقْتُلُونَ أَنۢبِيَآءَ ٱللَّهِ مِن قَبْلُ إِن كُنتُم مُّؤْمِنِينَ`,
       textFrench: `Et quand on leur dit: «Croyez à ce qu'Allah a fait descendre», ils disent: «Nous croyons à ce qu'on a fait descendre à nous». Et ils rejettent le reste, alors qu'il est la vérité confirmant ce qu'il y avait déjà avec eux. - Dis: «Pourquoi donc avez-vous tué auparavant les prophètes d'Allah, si vous étiez croyants?».`,
       transliteration: `Wa izaa qeela lahum aaminoo bimaaa anzalal laahu qaaloo nu'minu bimaaa unzila 'alainaa wa yakfuroona bimaa waraaa'ahoo wa huwal haqqu musaddiqal limaa ma'ahum; qul falima taqtuloona Ambiyaaa'al laahi min qablu in kuntum mu'mineen`,
+      commentary: {
+        context: "Ils prétendent croire seulement en ce qui leur a été révélé, mais rejettent ce qui vient après (le Coran) alors qu'il confirme la Torah. Contradiction : s'ils croyaient vraiment en la Torah, pourquoi avoir tué les prophètes ?",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -204,6 +341,11 @@ export const hizb02: Hizb = {
       textArabic: `۞ وَلَقَدْ جَآءَكُم مُّوسَىٰ بِٱلْبَيِّنَٰتِ ثُمَّ ٱتَّخَذْتُمُ ٱلْعِجْلَ مِنۢ بَعْدِهِۦ وَأَنتُمْ ظَٰلِمُونَ`,
       textFrench: `Et en effet Moïse vous est venu avec les preuves. Malgré cela, une fois absent, vous avez pris le Veau pour idole, alors que vous étiez injustes.`,
       transliteration: `Wa laqad jaaa'akum Moosa bilbaiyinaati summat takhaztunmul 'ijla mim ba'dihee wa antum zaalimoon`,
+      commentary: {
+        context: "Rappel : Moïse est venu avec les preuves claires, mais vous avez pris le veau d'or après lui, étant injustes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -214,6 +356,11 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ أَخَذْنَا مِيثَٰقَكُمْ وَرَفَعْنَا فَوْقَكُمُ ٱلطُّورَ خُذُوا۟ مَآ ءَاتَيْنَٰكُم بِقُوَّةٍۢ وَٱسْمَعُوا۟ ۖ قَالُوا۟ سَمِعْنَا وَعَصَيْنَا وَأُشْرِبُوا۟ فِى قُلُوبِهِمُ ٱلْعِجْلَ بِكُفْرِهِمْ ۚ قُلْ بِئْسَمَا يَأْمُرُكُم بِهِۦٓ إِيمَٰنُكُمْ إِن كُنتُم مُّؤْمِنِينَ`,
       textFrench: `Et rappelez-vous, lorsque Nous avons pris l'engagement de vous, et brandi sur vous AT-Tûr (le Mont Sinaï) en vous disant: «Tenez ferme à ce que Nous vous avons donné, et écoutez!». Ils dirent: «Nous avons écouté et désobéi». Dans leur impiété, leurs cœurs étaient passionnément épris du Veau (objet de leur culte). Dis-[leur]: «Quelles mauvaises prescriptions ordonnées par votre foi, si vous êtes croyants».`,
       transliteration: `Wa iz akhaznaa meesaaqakum wa rafa'naa fawqa kumut Toora khuzoo maaa aatainaakum biquwwatinw wasma'oo qaaloo sami'naa wa 'asainaa wa ushriboo fee quloobihimul 'ijla bikufrihim; qul bi'samaa yaamurukum biheee eemaanukum in kuntum m'mineen`,
+      commentary: {
+        context: "Malgré le mont soulevé au-dessus d'eux et l'ordre de prendre la Torah avec force, ils ont dit « Nous avons entendu et désobéi ». L'amour du veau s'est imprégné dans leurs cœurs à cause de leur mécréance.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -224,6 +371,11 @@ export const hizb02: Hizb = {
       textArabic: `قُلْ إِن كَانَتْ لَكُمُ ٱلدَّارُ ٱلْءَاخِرَةُ عِندَ ٱللَّهِ خَالِصَةًۭ مِّن دُونِ ٱلنَّاسِ فَتَمَنَّوُا۟ ٱلْمَوْتَ إِن كُنتُمْ صَٰدِقِينَ`,
       textFrench: `- Dis: «Si l'Ultime demeure auprès d'Allah est pour vous seuls, à l'exclusion des autres gens, souhaitez donc la mort [immédiate] si vous êtes véridiques!»`,
       transliteration: `Qul in kaanat lakumud Daarul Aakhiratu 'indal laahi khaalisatam min doonin naasi fatamannawul mawta in kuntum saadiqeen`,
+      commentary: {
+        context: "Défi divin : si la demeure de l'au-delà est exclusivement pour vous (comme vous le prétendez), alors souhaitez la mort, si vous êtes véridiques !",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -234,6 +386,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَن يَتَمَنَّوْهُ أَبَدًۢا بِمَا قَدَّمَتْ أَيْدِيهِمْ ۗ وَٱللَّهُ عَلِيمٌۢ بِٱلظَّٰلِمِينَ`,
       textFrench: `Or, ils ne la souhaiteront jamais, sachant tout le mal qu'ils ont perpétré de leurs mains. Et Allah connait bien les injustes.`,
       transliteration: `Wa lai yatamannawhu abadam bimaa qaddamat aydeehim; wallaahu 'aleemum bizzaalimeen`,
+      commentary: {
+        context: "Ils ne le souhaiteront jamais, car ils savent ce que leurs mains ont avancé (péchés). Allah connaît les injustes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -244,6 +401,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَتَجِدَنَّهُمْ أَحْرَصَ ٱلنَّاسِ عَلَىٰ حَيَوٰةٍۢ وَمِنَ ٱلَّذِينَ أَشْرَكُوا۟ ۚ يَوَدُّ أَحَدُهُمْ لَوْ يُعَمَّرُ أَلْفَ سَنَةٍۢ وَمَا هُوَ بِمُزَحْزِحِهِۦ مِنَ ٱلْعَذَابِ أَن يُعَمَّرَ ۗ وَٱللَّهُ بَصِيرٌۢ بِمَا يَعْمَلُونَ`,
       textFrench: `Et certes tu les trouveras les plus attachés à la vie [d'ici-bas], pire en cela que les Associateurs. Tel d'entre eux aimerait vivre mille ans. Mais une pareille longévité ne le sauvera pas du châtiment! Et Allah voit bien leurs actions.`,
       transliteration: `Wa latajidannahum ahrasannaasi 'alaa hayaatinw wa minal lazeena ashrakoo; yawaddu ahaduhum law yu'ammaru alfa sanatinw wa maa huwa bi muzahzihihee minal 'azaabi ai yu'ammar; wallaahu baseerum bimaa ya'maloon`,
+      commentary: {
+        context: "Tu les trouveras les plus avides de vivre, plus même que les polythéistes. Chacun d'eux voudrait vivre mille ans, mais même cela ne l'éloignerait pas du châtiment.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -254,6 +416,24 @@ export const hizb02: Hizb = {
       textArabic: `قُلْ مَن كَانَ عَدُوًّۭا لِّجِبْرِيلَ فَإِنَّهُۥ نَزَّلَهُۥ عَلَىٰ قَلْبِكَ بِإِذْنِ ٱللَّهِ مُصَدِّقًۭا لِّمَا بَيْنَ يَدَيْهِ وَهُدًۭى وَبُشْرَىٰ لِلْمُؤْمِنِينَ`,
       textFrench: `Dis: «Quiconque est ennemi de Gabriel doit connaître que c'est lui qui, avec la permission d'Allah, a fait descendre sur ton cœur cette révélation qui déclare véridiques les messages antérieurs et qui sert aux croyants de guide et d'heureuse annonce»`,
       transliteration: `Qul man kaana 'aduwwal li Jibreela fainnahoo nazzalahoo 'alaa qalbika bi iznil laahi musaddiqal limaa baina yadihi wa hudanw wa bushraa lilmu'mineen`,
+      commentary: {
+        context: "Verset clé : certains Juifs prétendaient que Jibrîl était leur ennemi (car il apportait le châtiment). Allah répond : c'est Jibrîl qui a fait descendre le Coran sur ton cœur, par la permission d'Allah, comme confirmation de ce qui l'a précédé, guidance et bonne nouvelle pour les croyants.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset réfute ceux qui prétendent être ennemis de Jibrîl. Être ennemi de Jibrîl, c'est être ennemi de ce qu'il transmet : le Coran. Et être ennemi du Coran, c'est être ennemi d'Allah. Jibrîl n'est qu'un messager qui exécute l'ordre d'Allah. Le Coran est décrit ici par trois qualités : il confirme les révélations précédentes, il est une guidance, et il est une bonne nouvelle pour les croyants.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 97",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ibn Abbas rapporte que des Juifs de Médine dirent au Prophète ﷺ : « Nous ne sommes l'ennemi de personne parmi les anges, sauf de Jibrîl, car c'est l'ange du châtiment et de la guerre. » Allah révéla alors ce verset pour réfuter cette prétention absurde. Jibrîl est le plus noble des anges, et être son ennemi revient à être ennemi d'Allah Lui-même.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 97",
+          },
+        ],
+        nuances: [
+          "Ce verset établit que le Coran a été révélé « sur le cœur » (qalbika) du Prophète ﷺ, pas simplement à ses oreilles. La révélation est une transformation intérieure profonde.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -264,6 +444,11 @@ export const hizb02: Hizb = {
       textArabic: `مَن كَانَ عَدُوًّۭا لِّلَّهِ وَمَلَٰٓئِكَتِهِۦ وَرُسُلِهِۦ وَجِبْرِيلَ وَمِيكَىٰلَ فَإِنَّ ٱللَّهَ عَدُوٌّۭ لِّلْكَٰفِرِينَ`,
       textFrench: `[Dis:] «Quiconque est ennemi d'Allah, de Ses anges, de Ses messagers, de Gabriel et de Michaël... [Allah sera son ennemi] car Allah est l'ennemi des infidèles».`,
       transliteration: `Man kaana 'aduwwal lillaahi wa malaaa'ikatihee wa Rusulihee wa Jibreela wa Meekaala fa innal laaha 'aduwwul lilkaafireen`,
+      commentary: {
+        context: "Conclusion catégorique : quiconque est ennemi d'Allah, de Ses anges, de Ses messagers, de Jibrîl et de Mîkâîl, alors Allah est ennemi des mécréants.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -274,6 +459,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَقَدْ أَنزَلْنَآ إِلَيْكَ ءَايَٰتٍۭ بَيِّنَٰتٍۢ ۖ وَمَا يَكْفُرُ بِهَآ إِلَّا ٱلْفَٰسِقُونَ`,
       textFrench: `Et très certainement Nous avons fait descendre vers toi des signes évidents. Et seuls les pervers n'y croient pas.`,
       transliteration: `Wa laqad anzalnaaa ilaika Aayaatim baiyinaatinw wa maa yakfuru bihaaa illal faasiqoon`,
+      commentary: {
+        context: "Des signes clairs ont été révélés, et seuls les pervers (fasiqun) les rejettent. La clarté des preuves rend le rejet inexcusable.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -284,6 +474,11 @@ export const hizb02: Hizb = {
       textArabic: `أَوَكُلَّمَا عَٰهَدُوا۟ عَهْدًۭا نَّبَذَهُۥ فَرِيقٌۭ مِّنْهُم ۚ بَلْ أَكْثَرُهُمْ لَا يُؤْمِنُونَ`,
       textFrench: `Faudrait-il chaque fois qu'ils concluent un pacte, qu'une partie d'entre eux le dénonce? C'est que plutôt la plupart d'entre eux ne sont pas croyants.`,
       transliteration: `Awa kullamaa 'aahadoo ahdan nabazahoo fareequm minhum; bal aksaruhum laa u'minoon`,
+      commentary: {
+        context: "Chaque fois qu'ils contractent un pacte, un groupe parmi eux le rejette. En réalité, la plupart d'entre eux ne croient pas.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -294,6 +489,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَمَّا جَآءَهُمْ رَسُولٌۭ مِّنْ عِندِ ٱللَّهِ مُصَدِّقٌۭ لِّمَا مَعَهُمْ نَبَذَ فَرِيقٌۭ مِّنَ ٱلَّذِينَ أُوتُوا۟ ٱلْكِتَٰبَ كِتَٰبَ ٱللَّهِ وَرَآءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ`,
       textFrench: `Et quand leur vint d'Allah un messager confirmant ce qu'il y avait déjà avec eux, certains à qui le Livre avait été donné, jetèrent derrière leur dos le Livre d'Allah comme s'ils ne savaient pas!`,
       transliteration: `Wa lammaa jaaa'ahum Rasoolum min 'indil laahi musaddiqul limaa ma'ahum nabaza fareequm minal lazeena ootul Kitaaba Kitaabal laahi waraaa'a zuhoorihim ka annahum laa ya'lamoon`,
+      commentary: {
+        context: "Quand le Messager d'Allah ﷺ est venu en confirmant ce qu'ils avaient, un groupe des gens du Livre a jeté le Livre d'Allah derrière leur dos, comme s'ils ne savaient pas.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -304,6 +504,34 @@ export const hizb02: Hizb = {
       textArabic: `وَٱتَّبَعُوا۟ مَا تَتْلُوا۟ ٱلشَّيَٰطِينُ عَلَىٰ مُلْكِ سُلَيْمَٰنَ ۖ وَمَا كَفَرَ سُلَيْمَٰنُ وَلَٰكِنَّ ٱلشَّيَٰطِينَ كَفَرُوا۟ يُعَلِّمُونَ ٱلنَّاسَ ٱلسِّحْرَ وَمَآ أُنزِلَ عَلَى ٱلْمَلَكَيْنِ بِبَابِلَ هَٰرُوتَ وَمَٰرُوتَ ۚ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَآ إِنَّمَا نَحْنُ فِتْنَةٌۭ فَلَا تَكْفُرْ ۖ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِۦ بَيْنَ ٱلْمَرْءِ وَزَوْجِهِۦ ۚ وَمَا هُم بِضَآرِّينَ بِهِۦ مِنْ أَحَدٍ إِلَّا بِإِذْنِ ٱللَّهِ ۚ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ ۚ وَلَقَدْ عَلِمُوا۟ لَمَنِ ٱشْتَرَىٰهُ مَا لَهُۥ فِى ٱلْءَاخِرَةِ مِنْ خَلَٰقٍۢ ۚ وَلَبِئْسَ مَا شَرَوْا۟ بِهِۦٓ أَنفُسَهُمْ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ`,
       textFrench: `Et ils suivirent ce que les diables racontent contre le règne de Solayman. Alors que Solayman n'a jamais été mécréant mais bien les diables: ils enseignent aux gens la magie ainsi que ce qui est descendu aux deux anges Hârout et Mârout, à Babylone; mais ceux-ci n'enseignaient rien à personne, qu'ils n'aient dit d'abord: «Nous ne sommes rien qu'une tentation: ne sois pas mécréant» ils apprennent auprès d'eux ce qui sème la désunion entre l'homme et son épouse. Or ils ne sont capables de nuire à personne qu'avec la permission d'Allah. Et les gens apprennent ce qui leur nuit et ne leur est pas profitable. Et ils savent, très certainement, que celui qui acquiert [ce pouvoir] n'aura aucune part dans l'au-delà. Certes, quelle détestable marchandise pour laquelle ils ont vendu leurs âmes! Si seulement ils savaient!`,
       transliteration: `Wattaba'oo maa tatlush Shayaateenu 'alaa mulki Sulaimaana wa maa kafara Sulaimaanu wa laakinnash Shayattena kafaroo yu'al limoonan naasas sihra wa maaa unzila 'alal malakaini bi Baabila Haaroota wa Maaroot; wa maa yu'allimaani min ahadin hattaa yaqoolaaa innamaa nahnu fitnatun falaa takfur fayata'al lamoona minhumaa maa yufarriqoona bihee bainal mar'i wa zawjih; wa maa hum bidaaarreena bihee min ahadin illaa bi-iznillah; wa yata'allamoona maa yadurruhum wa laa yanfa'uhum; wa laqad 'alimoo lamanish taraahu maa lahoo fil Aakhirati min khalaaq; wa labi'sa maa sharaw biheee anfusahum; law kaanoo ya'lamoon`,
+      commentary: {
+        context: "Verset clé sur la sorcellerie (sihr). Ils ont suivi ce que les démons enseignaient à l'époque de Sulayman. Sulayman n'a jamais été mécréant — ce sont les démons qui ont mécru. Les deux anges Harut et Marut à Babylone enseignaient la magie comme épreuve (fitna), avertissant chaque personne avant : « Nous ne sommes qu'une tentation, ne deviens pas mécréant. » La magie ne nuit qu'avec la permission d'Allah.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset innocente Sulayman de l'accusation de sorcellerie que les Juifs lui attribuaient. La magie est de la mécréance (kufr). Les deux anges étaient une épreuve d'Allah : ils prévenaient chaque personne que l'apprentissage de la magie est de la mécréance, mais les gens persistaient quand même. Le verset établit plusieurs principes : 1) la magie est réelle mais ne nuit qu'avec la permission d'Allah, 2) apprendre la magie est de la mécréance, 3) la magie sépare les époux — c'est l'un de ses pires méfaits, 4) celui qui l'acquiert n'a aucune part dans l'au-delà.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 102",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Les Juifs prétendaient que Sulayman gouvernait par la magie. Allah les réfute : Sulayman n'a jamais pratiqué la magie, ce sont les démons qui enseignaient la sorcellerie aux gens. Quant à Harut et Marut, ce sont deux anges envoyés comme épreuve à Babylone. Ils n'enseignaient rien sans d'abord avertir : « Ne deviens pas mécréant. » La magie est classée parmi les sept péchés destructeurs (mubiqat) dans le hadith authentique.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 102",
+          },
+        ],
+        nuances: [
+          "Le statut juridique de la magie fait consensus chez les quatre écoles : la pratiquer est de la mécréance (kufr) ou un péché capital selon les détails.",
+          "« Ils ne nuisent à personne qu'avec la permission d'Allah » : principe fondamental — rien n'échappe à la volonté divine, même la magie.",
+        ],
+        relatedHadiths: [
+          {
+            collection: 'Sahih al-Bukhari',
+            number: '2766',
+            narrator: 'Abu Hurayra',
+            text: "Le Prophète ﷺ a dit : « Évitez les sept péchés destructeurs (mubiqat) », et il mentionna parmi eux : « la sorcellerie (as-sihr). »",
+            grade: 'Sahih',
+          },
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -314,6 +542,11 @@ export const hizb02: Hizb = {
       textArabic: `وَلَوْ أَنَّهُمْ ءَامَنُوا۟ وَٱتَّقَوْا۟ لَمَثُوبَةٌۭ مِّنْ عِندِ ٱللَّهِ خَيْرٌۭ ۖ لَّوْ كَانُوا۟ يَعْلَمُونَ`,
       textFrench: `Et s'ils croyaient et vivaient en piété, une récompense de la part d'Allah serait certes meilleure. Si seulement ils savaient!`,
       transliteration: `Wa law annahum aamanoo wattaqaw lamasoobatum min 'indillaahi khairun law kaanoo ya'lamoon`,
+      commentary: {
+        context: "S'ils avaient cru et été pieux, la récompense d'Allah aurait été meilleure que tout ce qu'ils ont obtenu par la magie. Si seulement ils savaient !",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -324,6 +557,11 @@ export const hizb02: Hizb = {
       textArabic: `يَٰٓأَيُّهَا ٱلَّذِينَ ءَامَنُوا۟ لَا تَقُولُوا۟ رَٰعِنَا وَقُولُوا۟ ٱنظُرْنَا وَٱسْمَعُوا۟ ۗ وَلِلْكَٰفِرِينَ عَذَابٌ أَلِيمٌۭ`,
       textFrench: `O vous qui croyez! Ne dites pas: «Râ'inâ» (favorise-nous) mais dites: «Onzurnâ» (regarde-nous); et écoutez! Un châtiment douloureux sera pour les infidèles.`,
       transliteration: `Yaaa ayyuhal lazeena aamanoo laa taqooloo raa'inaa wa qoolun zurnaa wasma'oo; wa lilkaafireena 'azaabun aleem`,
+      commentary: {
+        context: "Les croyants sont avertis de ne pas dire « ra'ina » (« fais-nous paître / regarde-nous ») car les Juifs détournaient ce mot pour insulter le Prophète ﷺ. Dire plutôt « unzurna » (regarde-nous). Leçon sur la précaution dans le langage.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -334,6 +572,11 @@ export const hizb02: Hizb = {
       textArabic: `مَّا يَوَدُّ ٱلَّذِينَ كَفَرُوا۟ مِنْ أَهْلِ ٱلْكِتَٰبِ وَلَا ٱلْمُشْرِكِينَ أَن يُنَزَّلَ عَلَيْكُم مِّنْ خَيْرٍۢ مِّن رَّبِّكُمْ ۗ وَٱللَّهُ يَخْتَصُّ بِرَحْمَتِهِۦ مَن يَشَآءُ ۚ وَٱللَّهُ ذُو ٱلْفَضْلِ ٱلْعَظِيمِ`,
       textFrench: `Ni les mécréants parmi les gens du Livre, ni les Associateurs n'aiment qu'on fasse descendre sur vous un bienfait de la part de votre Seigneur, alors qu'Allah réserve à qui Il veut sa Miséricorde. Et c'est Allah le Détenteur de l'abondante grâce.`,
       transliteration: `Maa yawaddul lazeena kafaroo min ahlil kitaabi wa lal mushrikeena ai-yunazzala 'alaikum min khairim mir Rabbikum; wallaahu yakhtassu birahmatihee mai-yashaaa; wallaahu zul fadlil'azeem`,
+      commentary: {
+        context: "Les mécréants parmi les gens du Livre et les polythéistes ne souhaitent pas qu'un bien vous soit descendu de votre Seigneur. Mais Allah réserve Sa miséricorde à qui Il veut. Allah est le Détenteur de l'immense grâce.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -344,6 +587,25 @@ export const hizb02: Hizb = {
       textArabic: `۞ مَا نَنسَخْ مِنْ ءَايَةٍ أَوْ نُنسِهَا نَأْتِ بِخَيْرٍۢ مِّنْهَآ أَوْ مِثْلِهَآ ۗ أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌ`,
       textFrench: `Si Nous abrogeons un verset quelconque ou que Nous le fassions oublier, Nous en apportons un meilleur, ou un semblable. Ne sais-tu pas qu'Allah est Omnipotent?`,
       transliteration: `Maa nansakh min aayatin aw nunsihaa na-ti bikhairim minhaaa aw mislihaaa; alam ta'lam annal laaha 'alaa kulli shai'in qadeer`,
+      commentary: {
+        context: "Verset fondamental sur l'abrogation (naskh). Quand Allah abroge un verset ou le fait oublier, Il en apporte un meilleur ou semblable. Cela répond aux polythéistes et aux gens du Livre qui critiquaient les changements de législation.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "L'abrogation fait partie de la sagesse divine. Allah abroge un commandement et le remplace par ce qui est meilleur pour les serviteurs en fonction de leur situation, ou par un commandement équivalent. Cela ne signifie pas une contradiction mais une adaptation de la législation selon la sagesse divine. Allah est Omnipotent : Il légifère ce qu'Il veut et abroge ce qu'Il veut, et personne ne peut Lui demander des comptes.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 106",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ce verset établit le principe de l'abrogation dans la législation islamique. L'abrogation peut concerner le jugement seul, la récitation seule, ou les deux. C'est une réponse aux Juifs qui disaient : « Muhammad ordonne une chose puis l'interdit. » Allah montre que l'abrogation est une manifestation de Sa puissance et de Sa sagesse, non une contradiction.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 106",
+          },
+        ],
+        nuances: [
+          "L'abrogation (naskh) est un principe fondamental en sciences coraniques (ulum al-Qur'an) et en jurisprudence (usul al-fiqh). Elle explique les évolutions législatives entre les versets mecquois et médinois.",
+          "Le naskh ne concerne que les commandements juridiques, jamais les informations (akhbar) ni les principes de foi (aqida).",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -354,6 +616,11 @@ export const hizb02: Hizb = {
       textArabic: `أَلَمْ تَعْلَمْ أَنَّ ٱللَّهَ لَهُۥ مُلْكُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۗ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍ`,
       textFrench: `Ne sais-tu pas qu'à Allah, appartient le royaume des cieux et de la terre, et qu'en dehors d'Allah vous n'avez ni protecteur ni secoureur?`,
       transliteration: `Alam ta'lam annallaaha lahoo mulkus samaawaati wal ard; wa maa lakum min doonil laahi minw waliyyinw wa laa naseer`,
+      commentary: {
+        context: "Rappel de la souveraineté absolue d'Allah sur les cieux et la terre. Vous n'avez en dehors d'Allah ni protecteur ni secoureur.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -364,6 +631,11 @@ export const hizb02: Hizb = {
       textArabic: `أَمْ تُرِيدُونَ أَن تَسْـَٔلُوا۟ رَسُولَكُمْ كَمَا سُئِلَ مُوسَىٰ مِن قَبْلُ ۗ وَمَن يَتَبَدَّلِ ٱلْكُفْرَ بِٱلْإِيمَٰنِ فَقَدْ ضَلَّ سَوَآءَ ٱلسَّبِيلِ`,
       textFrench: `Voudriez-vous interroger votre Messager comme auparavant on interrogea Moïse? Quiconque substitue la mécréance à la foi s'égare certes du droit chemin.`,
       transliteration: `Am tureedoona an tas'aloo Rasoolakum kamaa su'ila Moosa min qabl; wa mai yatabaddalil kufra bil eemaani faqad dalla sawaaa'as sabeel`,
+      commentary: {
+        context: "Mise en garde contre les questions excessives au Prophète ﷺ, comme les Fils d'Israël le faisaient avec Moïse. Échanger la foi contre la mécréance, c'est s'éloigner du droit chemin.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -374,6 +646,11 @@ export const hizb02: Hizb = {
       textArabic: `وَدَّ كَثِيرٌۭ مِّنْ أَهْلِ ٱلْكِتَٰبِ لَوْ يَرُدُّونَكُم مِّنۢ بَعْدِ إِيمَٰنِكُمْ كُفَّارًا حَسَدًۭا مِّنْ عِندِ أَنفُسِهِم مِّنۢ بَعْدِ مَا تَبَيَّنَ لَهُمُ ٱلْحَقُّ ۖ فَٱعْفُوا۟ وَٱصْفَحُوا۟ حَتَّىٰ يَأْتِىَ ٱللَّهُ بِأَمْرِهِۦٓ ۗ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍۢ قَدِيرٌۭ`,
       textFrench: `Nombre de gens du Livre aimeraient par jalousie de leur part, pouvoir vous rendre mécréants après que vous ayez cru. Et après que la vérité s'est manifestée à eux! Pardonnez et oubliez jusqu'à ce qu'Allah fasse venir Son commandement. Allah est très certainement Omnipotent!`,
       transliteration: `Wadda kaseerum min ahlil kitaabi law yaruddoo nakum mim ba'di eemaanikum kuffaaran hasadam min 'indi anfusihim mim ba'di maa tabaiyana lahumul haqqu fa'foo washfahoo hattaa yaa tiyallaahu bi amrih; innal laaha 'alaa kulli shai'in qadeer`,
+      commentary: {
+        context: "Beaucoup de gens du Livre souhaitent vous ramener à la mécréance par envie personnelle, après que la vérité leur est apparue. Pardonnez et passez outre jusqu'à ce qu'Allah vienne avec Son commandement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -384,6 +661,11 @@ export const hizb02: Hizb = {
       textArabic: `وَأَقِيمُوا۟ ٱلصَّلَوٰةَ وَءَاتُوا۟ ٱلزَّكَوٰةَ ۚ وَمَا تُقَدِّمُوا۟ لِأَنفُسِكُم مِّنْ خَيْرٍۢ تَجِدُوهُ عِندَ ٱللَّهِ ۗ إِنَّ ٱللَّهَ بِمَا تَعْمَلُونَ بَصِيرٌۭ`,
       textFrench: `Et accomplissez la Salât et acquittez la Zakât. Et tout ce que vous avancez de bien pour vous-mêmes, vous le retrouverez auprès d'Allah, car Allah voit parfaitement ce que vous faites.`,
       transliteration: `Wa aqeemus salaata wa aatuz zakaah; wa maa tuqaddimoo li anfusikum min khairin tajidoohu 'indal laah; innal laaha bimaa ta'maloona baseer`,
+      commentary: {
+        context: "Accomplissez la prière et acquittez la zakat. Tout bien que vous avancez pour vous-mêmes, vous le retrouverez auprès d'Allah. Principe fondamental : les bonnes œuvres sont un investissement éternel.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -394,6 +676,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالُوا۟ لَن يَدْخُلَ ٱلْجَنَّةَ إِلَّا مَن كَانَ هُودًا أَوْ نَصَٰرَىٰ ۗ تِلْكَ أَمَانِيُّهُمْ ۗ قُلْ هَاتُوا۟ بُرْهَٰنَكُمْ إِن كُنتُمْ صَٰدِقِينَ`,
       textFrench: `Et ils ont dit: «Nul n'entrera au Paradis que Juifs ou Chrétiens». Voilà leurs chimères. - Dis: «Donnez votre preuve, si vous êtes véridiques».`,
       transliteration: `Wa qaaloo lai yadkhulal jannata illaa man kaana Hoodan aw Nasaaraa; tilka ammniyyuhum; qul haatoo burhaa nakum in kuntum saadiqeen`,
+      commentary: {
+        context: "Chaque groupe prétend que seuls les siens entreront au Paradis. Ce ne sont que leurs chimères. « Apportez vos preuves si vous êtes véridiques ! » — exigence de preuve face aux prétentions sans fondement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -404,6 +691,11 @@ export const hizb02: Hizb = {
       textArabic: `بَلَىٰ مَنْ أَسْلَمَ وَجْهَهُۥ لِلَّهِ وَهُوَ مُحْسِنٌۭ فَلَهُۥٓ أَجْرُهُۥ عِندَ رَبِّهِۦ وَلَا خَوْفٌ عَلَيْهِمْ وَلَا هُمْ يَحْزَنُونَ`,
       textFrench: `Non, mais quiconque soumet à Allah son être tout en faisant le bien, aura sa rétribution auprès de son Seigneur. Pour eux, nulle crainte, et ils ne seront point attristés.`,
       transliteration: `Balaa man aslama wajhahoo lillaahi wa huwa muhsinun falahooo ajruhoo 'inda rabbihee wa laa khawfun 'alaihim wa laa hum yahzanoon`,
+      commentary: {
+        context: "La vraie condition du salut : soumettre son visage (son être entier) à Allah tout en étant bienfaisant (muhsin). Ni crainte ni tristesse pour ceux-là. Critère universel et objectif.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -414,6 +706,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالَتِ ٱلْيَهُودُ لَيْسَتِ ٱلنَّصَٰرَىٰ عَلَىٰ شَىْءٍۢ وَقَالَتِ ٱلنَّصَٰرَىٰ لَيْسَتِ ٱلْيَهُودُ عَلَىٰ شَىْءٍۢ وَهُمْ يَتْلُونَ ٱلْكِتَٰبَ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ لَا يَعْلَمُونَ مِثْلَ قَوْلِهِمْ ۚ فَٱللَّهُ يَحْكُمُ بَيْنَهُمْ يَوْمَ ٱلْقِيَٰمَةِ فِيمَا كَانُوا۟ فِيهِ يَخْتَلِفُونَ`,
       textFrench: `Et les Juifs disent: «Les Chrétiens ne tiennent sur rien» et les Chrétiens disent: «Les Juifs ne tiennent sur rien», alors qu'ils lisent le Livre! De même ceux qui ne savent rien tiennent un langage semblable au leur. Eh bien, Allah jugera sur ce quoi ils s'opposent, au Jour de la Résurrection.`,
       transliteration: `Wa qaalatil Yahoodu laisatin Nasaaraa 'alaa shai'inw-wa qaalatin Nasaaraaa laisatil Yahoodu 'alaa shai'inw'wa hum yatloonal Kitaab; kazaalika qaalal lazeena la ya'lamoona misla qawlihim Yawmal Qiyaamati feemaa kaanoo feehi yakhtalifoon`,
+      commentary: {
+        context: "Les Juifs disent que les Chrétiens ne sont sur rien, et vice versa — alors qu'ils lisent le Livre ! Chaque groupe nie la légitimité de l'autre. Allah tranchera entre eux le Jour du Jugement.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -424,6 +721,11 @@ export const hizb02: Hizb = {
       textArabic: `وَمَنْ أَظْلَمُ مِمَّن مَّنَعَ مَسَٰجِدَ ٱللَّهِ أَن يُذْكَرَ فِيهَا ٱسْمُهُۥ وَسَعَىٰ فِى خَرَابِهَآ ۚ أُو۟لَٰٓئِكَ مَا كَانَ لَهُمْ أَن يَدْخُلُوهَآ إِلَّا خَآئِفِينَ ۚ لَهُمْ فِى ٱلدُّنْيَا خِزْىٌۭ وَلَهُمْ فِى ٱلْءَاخِرَةِ عَذَابٌ عَظِيمٌۭ`,
       textFrench: `Qui est plus injuste que celui qui empêche que dans les mosquées d'Allah, on mentionne Son Nom, et qui s'efforce à les détruire? De tels gens ne devraient y entrer qu'apeurés. Pour eux, ignominie ici-bas; et dans l'au-delà un énorme châtiment.`,
       transliteration: `Wa man azlamu mimmam-mana'a masaajidal laahi ai-yuzkara feehas muhoo wa sa'aa fee kharaabihaaa; ulaaa'ika maa kaana lahum ai yadkhuloohaaa illaa khaaa''feen; lahum fiddunyaa khizyunw wa lahum fil aakhirati 'azaabun 'azeem`,
+      commentary: {
+        context: "Qui est plus injuste que celui qui empêche de mentionner le nom d'Allah dans les mosquées et s'efforce de les détruire ? Humiliation ici-bas et châtiment immense dans l'au-delà pour ceux qui font cela.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -434,6 +736,20 @@ export const hizb02: Hizb = {
       textArabic: `وَلِلَّهِ ٱلْمَشْرِقُ وَٱلْمَغْرِبُ ۚ فَأَيْنَمَا تُوَلُّوا۟ فَثَمَّ وَجْهُ ٱللَّهِ ۚ إِنَّ ٱللَّهَ وَٰسِعٌ عَلِيمٌۭ`,
       textFrench: `A Allah seul appartiennent l'Est et l'Ouest. Où que vous vous tourniez, la Face (direction) d'Allah est donc là, car Allah a la grâce immense; Il est Omniscient.`,
       transliteration: `Wa lillaahil mashriqu walmaghrib; fa aynamaa tuwalloo fasamma wajhullaah; innal laaha waasi'un Aleem`,
+      commentary: {
+        context: "Verset clé sur l'universalité de la présence divine. À Allah appartiennent l'Orient et l'Occident. Où que vous vous tourniez, là est le Visage d'Allah (wajhullah). Allah est Immense (Wasi') et Omniscient.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset prouve l'immensité d'Allah et que Sa grandeur englobe toutes les directions. Il prépare le changement de qibla : la direction de la prière n'est pas une fin en soi, car Allah n'est pas limité à un lieu. Qu'on prie vers Jérusalem ou vers la Ka'ba, c'est Allah qu'on adore, et Il est partout par Sa science et Sa grandeur. Le nom Al-Wasi' (l'Immense) indique que Sa miséricorde, Sa science et Sa puissance englobent toute chose.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 115",
+          },
+        ],
+        nuances: [
+          "Ce verset est interprété dans le contexte du changement de qibla (de Jérusalem vers la Ka'ba) et/ou de la prière surérogatoire en voyage. Il ne signifie pas qu'on peut prier dans n'importe quelle direction sans raison.",
+          "« Wajh Allah » (le Visage d'Allah) est un attribut divin affirmé par les gens de la Sunna sans le nier (ta'til) ni le comparer aux créatures (tamthil).",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -444,6 +760,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالُوا۟ ٱتَّخَذَ ٱللَّهُ وَلَدًۭا ۗ سُبْحَٰنَهُۥ ۖ بَل لَّهُۥ مَا فِى ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ كُلٌّۭ لَّهُۥ قَٰنِتُونَ`,
       textFrench: `Et ils ont dit: «Allah s'est donné un fils»! Gloire à Lui! Non! mais c'est à Lui qu'appartient ce qui est dans les cieux et la terre et c'est à Lui que tous obéissent.`,
       transliteration: `Wa qaalut takhazal laahu waladan subhaanahoo bal lahoo maa fis samaawaati wal ardi kullul lahoo qaanitoon`,
+      commentary: {
+        context: "Réfutation de ceux qui attribuent un enfant à Allah (Juifs : Uzayr, Chrétiens : Jésus). Gloire à Lui ! Tout ce qui est dans les cieux et la terre Lui appartient, tous Lui sont soumis (qanitin).",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -454,6 +775,11 @@ export const hizb02: Hizb = {
       textArabic: `بَدِيعُ ٱلسَّمَٰوَٰتِ وَٱلْأَرْضِ ۖ وَإِذَا قَضَىٰٓ أَمْرًۭا فَإِنَّمَا يَقُولُ لَهُۥ كُن فَيَكُونُ`,
       textFrench: `Il est le Créateur des cieux et de la terre à partir du néant. Lorsqu'Il décide une chose, Il dit seulement: «Sois», et elle est aussitôt.`,
       transliteration: `Badree'us samaawaati wal ardi wa izaa qadaaa amran fa innamaa yaqoolu lahoo kun fayakoon`,
+      commentary: {
+        context: "Allah est le Créateur originel (Badi') des cieux et de la terre. Quand Il décrète une chose, Il dit « Sois ! » (kun) et elle est. La parole créatrice — preuve de la puissance absolue.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -464,6 +790,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالَ ٱلَّذِينَ لَا يَعْلَمُونَ لَوْلَا يُكَلِّمُنَا ٱللَّهُ أَوْ تَأْتِينَآ ءَايَةٌۭ ۗ كَذَٰلِكَ قَالَ ٱلَّذِينَ مِن قَبْلِهِم مِّثْلَ قَوْلِهِمْ ۘ تَشَٰبَهَتْ قُلُوبُهُمْ ۗ قَدْ بَيَّنَّا ٱلْءَايَٰتِ لِقَوْمٍۢ يُوقِنُونَ`,
       textFrench: `Et ceux qui ne savent pas ont dit: «Pourquoi Allah ne nous parle-t-Il pas [directement], ou pourquoi un signe ne nous vient-il pas?» De même, ceux d'avant eux disaient une parole semblable. Leurs cœurs se ressemblent. Nous avons clairement exposé les signes pour des gens qui ont la foi ferme.`,
       transliteration: `Wa qaalal lazeena laa ya'lamoona law laa yukallimunal laahu aw taateenaaa aayah; kazaalika qaalal lazeena min qablihim misla qawlihim; tashaabahat quloobuhum; qad baiyannal aayaati liqawminy yooqinoon`,
+      commentary: {
+        context: "Les ignorants demandent pourquoi Allah ne leur parle pas directement ou ne leur envoie pas un signe. Les peuples avant eux disaient la même chose — leurs cœurs se ressemblent. Les signes sont déjà clairs pour ceux qui ont la certitude.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -474,6 +805,11 @@ export const hizb02: Hizb = {
       textArabic: `إِنَّآ أَرْسَلْنَٰكَ بِٱلْحَقِّ بَشِيرًۭا وَنَذِيرًۭا ۖ وَلَا تُسْـَٔلُ عَنْ أَصْحَٰبِ ٱلْجَحِيمِ`,
       textFrench: `Certes, Nous t'avons envoyé avec la vérité, en annonciateur et avertisseur; et on ne te demande pas compte des gens de l'Enfer.`,
       transliteration: `Innaaa arsalnaaka bilhaqqi basheeranw wa nazeeranw wa laa tus'alu 'am Ashaabil Jaheem`,
+      commentary: {
+        context: "Muhammad ﷺ est envoyé avec la vérité comme annonciateur (bashir) et avertisseur (nadhir). Il n'a pas à rendre compte des gens de l'Enfer — sa mission est de transmettre.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -484,6 +820,20 @@ export const hizb02: Hizb = {
       textArabic: `وَلَن تَرْضَىٰ عَنكَ ٱلْيَهُودُ وَلَا ٱلنَّصَٰرَىٰ حَتَّىٰ تَتَّبِعَ مِلَّتَهُمْ ۗ قُلْ إِنَّ هُدَى ٱللَّهِ هُوَ ٱلْهُدَىٰ ۗ وَلَئِنِ ٱتَّبَعْتَ أَهْوَآءَهُم بَعْدَ ٱلَّذِى جَآءَكَ مِنَ ٱلْعِلْمِ ۙ مَا لَكَ مِنَ ٱللَّهِ مِن وَلِىٍّۢ وَلَا نَصِيرٍ`,
       textFrench: `Ni les Juifs, ni les Chrétiens ne seront jamais satisfaits de toi, jusqu'à ce que tu suives leur religion. - Dis: «Certes, c'est la direction d'Allah qui est la vraie direction». Mais si tu suis leurs passions après ce que tu as reçu de science, tu n'auras contre Allah ni protecteur ni secoureur.`,
       transliteration: `Wa lan tardaa 'ankal Yahoodu wa lan Nasaaraa hattaa tattabi'a millatahum; qul inna hudal laahi huwalhudaa; wa la'init taba'ta ahwaaa'ahum ba'dal lazee jaaa'aka minal 'ilmimaa laka minal laahi minw waliyyinw wa laa naseer`,
+      commentary: {
+        context: "Verset clé sur l'indépendance de la voie islamique. Les Juifs et les Chrétiens ne seront jamais satisfaits de toi tant que tu ne suivras pas leur religion. « La guidance d'Allah est la vraie guidance. » Si tu suivais leurs passions après la science qui t'est parvenue, tu n'aurais ni protecteur ni secoureur.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset établit que les tentatives de plaire aux gens du Livre en faisant des concessions sur la religion sont vaines : ils ne seront satisfaits que par l'abandon total de l'islam. La seule guidance est celle d'Allah. Si même le Prophète ﷺ est averti des conséquences de suivre leurs passions, que dire de sa communauté ? Ce verset appelle à la fermeté dans la vérité sans chercher la satisfaction de ceux qui rejettent la guidance divine.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 120",
+          },
+        ],
+        nuances: [
+          "Ce verset est souvent cité pour rappeler que la satisfaction des gens ne doit pas être recherchée au détriment de la vérité. Il s'adresse d'abord au Prophète ﷺ, et par extension à toute la communauté.",
+          "Le mot « milla » (religion/voie) est plus fort que « ra'y » (avis) : ce n'est pas un désaccord intellectuel, c'est une exigence de conversion totale.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -494,6 +844,11 @@ export const hizb02: Hizb = {
       textArabic: `ٱلَّذِينَ ءَاتَيْنَٰهُمُ ٱلْكِتَٰبَ يَتْلُونَهُۥ حَقَّ تِلَاوَتِهِۦٓ أُو۟لَٰٓئِكَ يُؤْمِنُونَ بِهِۦ ۗ وَمَن يَكْفُرْ بِهِۦ فَأُو۟لَٰٓئِكَ هُمُ ٱلْخَٰسِرُونَ`,
       textFrench: `Ceux à qui Nous avons donné le Livre, qui le récitent comme il se doit, ceux-là y croient. Et ceux qui n'y croient pas sont les perdants.`,
       transliteration: `Allazeena aatainaahumul Kitaaba yatloonahoo haqqa tilaawatiheee ulaaa'ika yu'minoona bi; wa mai yakfur bihee fa ulaaa'ika humul khaasiroon`,
+      commentary: {
+        context: "Ceux à qui Nous avons donné le Livre et qui le récitent comme il se doit (haqqa tilawatihi) — ceux-là y croient véritablement. La vraie récitation implique compréhension, méditation et mise en pratique.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -504,6 +859,11 @@ export const hizb02: Hizb = {
       textArabic: `يَٰبَنِىٓ إِسْرَٰٓءِيلَ ٱذْكُرُوا۟ نِعْمَتِىَ ٱلَّتِىٓ أَنْعَمْتُ عَلَيْكُمْ وَأَنِّى فَضَّلْتُكُمْ عَلَى ٱلْعَٰلَمِينَ`,
       textFrench: `O Enfants d'Israël, rappelez-vous Mon bienfait dont Je vous ai comblés et que Je vous ai favorisés par-dessus le reste du monde (de leur époque).`,
       transliteration: `Yaa Baneee Israaa'eelaz-kuroo ni'matiyal lateee an'amtu 'alaikum wa annee faddaltukum 'alal 'aalameen`,
+      commentary: {
+        context: "Troisième et dernier rappel aux Fils d'Israël dans ce hizb. Même formule qu'en 2:47 : rappel du bienfait et de la préférence sur les peuples de leur époque.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -514,6 +874,11 @@ export const hizb02: Hizb = {
       textArabic: `وَٱتَّقُوا۟ يَوْمًۭا لَّا تَجْزِى نَفْسٌ عَن نَّفْسٍۢ شَيْـًۭٔا وَلَا يُقْبَلُ مِنْهَا عَدْلٌۭ وَلَا تَنفَعُهَا شَفَٰعَةٌۭ وَلَا هُمْ يُنصَرُونَ`,
       textFrench: `Et redoutez le jour où nulle âme ne bénéficiera à une autre, où l'on n'acceptera d'elle aucune compensation, et où aucune intercession ne lui sera utile. Et ils ne seront point secourus.`,
       transliteration: `Wattaqoo yawmal laa tajzee nafsun 'an nafsin shai 'anw wa laa yuqbalu minhaa 'adlunw wa laa tanfa'uhaa shafaa 'atunw wa laa hum yunsaroon`,
+      commentary: {
+        context: "Avertissement solennel similaire à 2:48 : craignez un Jour où aucune âme ne pourra aider une autre, aucune rançon ne sera acceptée, aucune intercession ne sera utile. Clôture de la section sur les Fils d'Israël.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -524,6 +889,24 @@ export const hizb02: Hizb = {
       textArabic: `۞ وَإِذِ ٱبْتَلَىٰٓ إِبْرَٰهِۦمَ رَبُّهُۥ بِكَلِمَٰتٍۢ فَأَتَمَّهُنَّ ۖ قَالَ إِنِّى جَاعِلُكَ لِلنَّاسِ إِمَامًۭا ۖ قَالَ وَمِن ذُرِّيَّتِى ۖ قَالَ لَا يَنَالُ عَهْدِى ٱلظَّٰلِمِينَ`,
       textFrench: `[Et rappelle-toi] quand ton Seigneur eut éprouvé Abraham par certains commandements, et qu'il les eut accomplis, le Seigneur lui dit: «Je vais faire de toi un exemple à suivre pour les gens». - «Et parmi ma descendance?» demanda-t-il. - «Mon engagement, dit Allah, ne s'applique pas aux injustes»`,
       transliteration: `Wa izib talaaa Ibraaheema Rabbuho bi Kalimaatin fa atammahunna qaala Innee jaa'iluka linnaasi Imaaman qaala wa min zurriyyatee qaala laa yanaalu 'ahdiz zaalimeen`,
+      commentary: {
+        context: "Verset clé : Ibrahim est éprouvé par des paroles (commandements) et les accomplit parfaitement. Allah l'élève au rang d'imam (guide) pour l'humanité. Ibrahim demande ce rang pour sa descendance, mais Allah répond : « Mon engagement ne s'étend pas aux injustes. »",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ibrahim a atteint le rang d'imam — le plus haut degré après la prophétie — parce qu'il a parfaitement accompli toutes les épreuves. L'imamat (leadership spirituel) n'est pas un héritage automatique mais une récompense pour la patience et la certitude. La réponse divine « Mon engagement ne s'étend pas aux injustes » signifie que l'injuste (zalim) ne peut être imam, même s'il est descendant d'Ibrahim. C'est un argument décisif contre ceux qui se réclament d'Ibrahim par la lignée tout en étant injustes.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 124",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Les « paroles » par lesquelles Ibrahim fut éprouvé comprennent, selon les savants, les rites du hajj, la circoncision, les dix actes de fitra (nature saine), et d'autres épreuves comme le sacrifice de son fils et le jet dans le feu. Il les a toutes accomplies parfaitement. L'imamat est donc le fruit de la patience dans les épreuves et de la certitude en Allah.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 124",
+          },
+        ],
+        nuances: [
+          "Ce verset coupe court à toute prétention de leadership basée uniquement sur la lignée : ni les Juifs ni les Chrétiens ne peuvent revendiquer l'héritage d'Ibrahim s'ils sont dans l'injustice (shirk ou désobéissance).",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -534,6 +917,19 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ جَعَلْنَا ٱلْبَيْتَ مَثَابَةًۭ لِّلنَّاسِ وَأَمْنًۭا وَٱتَّخِذُوا۟ مِن مَّقَامِ إِبْرَٰهِۦمَ مُصَلًّۭى ۖ وَعَهِدْنَآ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ أَن طَهِّرَا بَيْتِىَ لِلطَّآئِفِينَ وَٱلْعَٰكِفِينَ وَٱلرُّكَّعِ ٱلسُّجُودِ`,
       textFrench: `[Et rappelle-toi], quand nous fîmes de la Maison un lieu de visite et un asile pour les gens - Adoptez donc pour lieu de prière, ce lieu où Abraham se tint debout - Et Nous confiâmes à Abraham et à Ismaël ceci: «Purifiez Ma Maison pour ceux qui tournent autour, y font retraite pieuse, s'y inclinent et s'y prosternent.`,
       transliteration: `Wa iz ja'alnal Baita masaabatal linnassi wa amnanw wattakhizoo mim Maqaami Ibraaheema musallaaa; wa 'ahidnaaa ilaaa Ibraaheema wa Ismaa'eela an tahhiraa Baitiya littaaa'ifeena wal'aakifeena warrukka'is sujood`,
+      commentary: {
+        context: "Verset clé sur la Ka'ba. Allah a fait de la Maison (al-Bayt) un lieu de rassemblement (mathaba) et de sécurité pour les gens. « Prenez le Maqam Ibrahim comme lieu de prière » — ordre de prier derrière la station d'Ibrahim. Ibrahim et Ismaïl reçoivent l'ordre de purifier la Maison pour les circumambulateurs, les retraitants et les priants.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "La Ka'ba est décrite par deux qualités : mathaba (lieu vers lequel les gens reviennent sans cesse, année après année, sans jamais s'en lasser) et amnan (lieu de sécurité, même les oiseaux et les animaux y sont en sûreté). Le Maqam Ibrahim est la pierre sur laquelle Ibrahim se tenait pour construire la Ka'ba, et la prière de deux rak'at derrière cette station est une sunna du tawaf. La purification de la Maison implique de la débarrasser de toute souillure physique et de tout shirk.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 125",
+          },
+        ],
+        nuances: [
+          "Ce verset est la base juridique de la prière de deux rak'at derrière le Maqam Ibrahim après le tawaf, pratique confirmée par la sunna du Prophète ﷺ.",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -544,6 +940,11 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ قَالَ إِبْرَٰهِۦمُ رَبِّ ٱجْعَلْ هَٰذَا بَلَدًا ءَامِنًۭا وَٱرْزُقْ أَهْلَهُۥ مِنَ ٱلثَّمَرَٰتِ مَنْ ءَامَنَ مِنْهُم بِٱللَّهِ وَٱلْيَوْمِ ٱلْءَاخِرِ ۖ قَالَ وَمَن كَفَرَ فَأُمَتِّعُهُۥ قَلِيلًۭا ثُمَّ أَضْطَرُّهُۥٓ إِلَىٰ عَذَابِ ٱلنَّارِ ۖ وَبِئْسَ ٱلْمَصِيرُ`,
       textFrench: `Et quand Abraham supplia: «O mon Seigneur, fais de cette cité un lieu de sécurité, et fais attribution des fruits à ceux qui parmi ses habitants auront cru en Allah et au Jour dernier», le Seigneur dit: «Et quiconque n'y aura pas cru, alors Je lui concèderai une courte jouissance [ici-bas], puis Je le contraindrai au châtiment du Feu [dans l'au-delà]. Et quelle mauvaise destination!»`,
       transliteration: `Wa iz qaala Ibraaheemu Rabbij 'al haazaa baladan aaminanw warzuq ahlahoo minas samaraati man aamana minhum billaahi wal yawmil aakhiri qaala wa man kafara faumatti'uhoo qaleelan summa adtarruhooo ilaa 'azaabin Naari wa bi'salmaseer`,
+      commentary: {
+        context: "Invocation d'Ibrahim : faire de la Mecque un lieu sûr et pourvoir ses habitants croyants en fruits. Allah répond qu'Il pourvoira aussi le mécréant temporairement, puis le conduira au châtiment du Feu.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -554,6 +955,19 @@ export const hizb02: Hizb = {
       textArabic: `وَإِذْ يَرْفَعُ إِبْرَٰهِۦمُ ٱلْقَوَاعِدَ مِنَ ٱلْبَيْتِ وَإِسْمَٰعِيلُ رَبَّنَا تَقَبَّلْ مِنَّآ ۖ إِنَّكَ أَنتَ ٱلسَّمِيعُ ٱلْعَلِيمُ`,
       textFrench: `Et quand Abraham et Ismaël élevaient les assises de la Maison: «O notre Seigneur, accepte ceci de notre part! Car c'est Toi l'Audient, l'Omniscient.`,
       transliteration: `Wa iz yarfa'u Ibraaheemul qawaa'ida minal Baitiwa Ismaa'eelu Rabbanaa taqabbal minnaa innaka Antas Samee'ul Aleem`,
+      commentary: {
+        context: "Verset clé : Ibrahim et Ismaïl élèvent les fondations de la Ka'ba en invoquant : « Notre Seigneur, accepte de nous ! Tu es l'Audient, l'Omniscient. » Modèle d'humilité : même les plus grands prophètes craignent que leur œuvre ne soit pas acceptée.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ibrahim et Ismaïl accomplissent l'une des plus grandes œuvres de l'histoire — la construction de la Maison d'Allah — tout en implorant l'acceptation divine. Cela montre que l'œuvre sans sincérité (ikhlas) est vaine, et que même les prophètes ne présument pas de l'acceptation de leurs actes. C'est le plus haut degré de la servitude : combiner l'excellence dans l'action avec l'humilité devant Allah.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 127",
+          },
+        ],
+        nuances: [
+          "Les salaf citaient ce verset pour illustrer la crainte qu'Allah n'accepte pas les bonnes œuvres. Ibn Abi Mulayka disait : « J'ai rencontré trente Compagnons du Prophète ﷺ, et chacun d'eux craignait l'hypocrisie pour lui-même. »",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -564,6 +978,11 @@ export const hizb02: Hizb = {
       textArabic: `رَبَّنَا وَٱجْعَلْنَا مُسْلِمَيْنِ لَكَ وَمِن ذُرِّيَّتِنَآ أُمَّةًۭ مُّسْلِمَةًۭ لَّكَ وَأَرِنَا مَنَاسِكَنَا وَتُبْ عَلَيْنَآ ۖ إِنَّكَ أَنتَ ٱلتَّوَّابُ ٱلرَّحِيمُ`,
       textFrench: `Notre Seigneur! Fais de nous Tes Soumis, et de notre descendance une communauté soumise à Toi. Et montre nous nos rites et accepte de nous le repentir. Car c'est Toi certes l'Accueillant au repentir, le Miséricordieux.`,
       transliteration: `Rabbanaa waj'alnaa muslimaini laka wa min zurriyyatinaaa ummatam muslimatal laka wa arinaa manaasikanaa wa tub 'alainaa innaka antat Tawwaabur Raheem`,
+      commentary: {
+        context: "Suite de l'invocation : « Fais de nous des soumis (muslimain) à Toi, et de notre descendance une communauté soumise. Montre-nous nos rites et accepte notre repentir. » Ibrahim demande l'islam pour lui, son fils et sa descendance.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -574,6 +993,11 @@ export const hizb02: Hizb = {
       textArabic: `رَبَّنَا وَٱبْعَثْ فِيهِمْ رَسُولًۭا مِّنْهُمْ يَتْلُوا۟ عَلَيْهِمْ ءَايَٰتِكَ وَيُعَلِّمُهُمُ ٱلْكِتَٰبَ وَٱلْحِكْمَةَ وَيُزَكِّيهِمْ ۚ إِنَّكَ أَنتَ ٱلْعَزِيزُ ٱلْحَكِيمُ`,
       textFrench: `Notre Seigneur! Envoie l'un des leurs comme messager parmi eux, pour leur réciter Tes versets, leur enseigner le Livre et la Sagesse, et les purifier. Car c'est Toi certes le Puissant, le Sage!`,
       transliteration: `Rabbanaa wab'as feehim Rasoolam minhum yatloo 'alaihim aayaatika wa yu'allimuhumul Kitaaba wal Hikmata wa yuzakkeehim; innaka Antal 'Azeezul Hakeem`,
+      commentary: {
+        context: "Invocation exaucée : « Envoie parmi eux un Messager d'entre eux qui leur récitera Tes versets, leur enseignera le Livre et la Sagesse, et les purifiera. » C'est la du'a d'Ibrahim pour Muhammad ﷺ, qui dira : « Je suis l'invocation de mon père Ibrahim. »",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -584,6 +1008,11 @@ export const hizb02: Hizb = {
       textArabic: `وَمَن يَرْغَبُ عَن مِّلَّةِ إِبْرَٰهِۦمَ إِلَّا مَن سَفِهَ نَفْسَهُۥ ۚ وَلَقَدِ ٱصْطَفَيْنَٰهُ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْءَاخِرَةِ لَمِنَ ٱلصَّٰلِحِينَ`,
       textFrench: `Qui donc aura en aversion la religion d'Abraham, sinon celui qui sème son âme dans la sottise? Car très certainement Nous l'avons choisi en ce monde; et, dans l'au-delà, il est certes du nombre des gens de bien.`,
       transliteration: `Wa manny yarghabu 'am-Millarti Ibraaheema illaa man safiha nafsah; wa laqadis tafainaahu fid-dunyaa wa innaho fil aakhirati laminas saaliheen`,
+      commentary: {
+        context: "Qui se détourne de la religion d'Ibrahim sinon celui qui se rend insensé ? Ibrahim a été choisi ici-bas et sera parmi les vertueux dans l'au-delà. La voie d'Ibrahim est la référence universelle.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -594,6 +1023,11 @@ export const hizb02: Hizb = {
       textArabic: `إِذْ قَالَ لَهُۥ رَبُّهُۥٓ أَسْلِمْ ۖ قَالَ أَسْلَمْتُ لِرَبِّ ٱلْعَٰلَمِينَ`,
       textFrench: `Quand son Seigneur lui avait dit: «Soumets-toi», il dit: «Je me soumets au Seigneur de l'Univers».`,
       transliteration: `Iz qaala lahoo Rabbuhooo aslim qaala aslamtu li Rabbil 'aalameen`,
+      commentary: {
+        context: "L'essence de la voie d'Ibrahim résumée en un échange : Allah dit « Soumets-toi ! » Ibrahim répond immédiatement : « Je me suis soumis au Seigneur des mondes. » Islam = soumission totale et instantanée.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -604,6 +1038,11 @@ export const hizb02: Hizb = {
       textArabic: `وَوَصَّىٰ بِهَآ إِبْرَٰهِۦمُ بَنِيهِ وَيَعْقُوبُ يَٰبَنِىَّ إِنَّ ٱللَّهَ ٱصْطَفَىٰ لَكُمُ ٱلدِّينَ فَلَا تَمُوتُنَّ إِلَّا وَأَنتُم مُّسْلِمُونَ`,
       textFrench: `Et c'est ce qu'Abraham recommanda à ses fils, de même que Jacob: «O mes fils, certes Allah vous a choisi la religion: ne mourrez point, donc, autrement qu'en Soumis!» (à Allah).`,
       transliteration: `Wa wassaa bihaaa Ibraaheemu baneehi wa Ya'qoob, yaa baniyya innal laahas tafaa lakumud deena falaa tamootunna illaa wa antum muslimoon`,
+      commentary: {
+        context: "Ibrahim et Ya'qub font le testament (wasiyya) à leurs fils : « Allah a choisi pour vous la religion, ne mourez qu'en étant soumis (muslimun). » La transmission de l'islam est un devoir parental fondamental.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -614,6 +1053,11 @@ export const hizb02: Hizb = {
       textArabic: `أَمْ كُنتُمْ شُهَدَآءَ إِذْ حَضَرَ يَعْقُوبَ ٱلْمَوْتُ إِذْ قَالَ لِبَنِيهِ مَا تَعْبُدُونَ مِنۢ بَعْدِى قَالُوا۟ نَعْبُدُ إِلَٰهَكَ وَإِلَٰهَ ءَابَآئِكَ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ إِلَٰهًۭا وَٰحِدًۭا وَنَحْنُ لَهُۥ مُسْلِمُونَ`,
       textFrench: `Etiez-vous témoins quand la mort se présenta à Jacob et qu'il dit à ses fils: «Qu'adorerez-vous après moi?» - Ils répondirent: «Nous adorerons ta divinité et la divinité de tes pères, Abraham, Ismaël et Isaac, Divinité Unique et à laquelle nous sommes Soumis».`,
       transliteration: `Am kuntum shuhadaaa'a iz hadara Ya'qoobal mawtu iz qaala libaneehi maa ta'budoona mim ba'dee qaaloo na'budu ilaahaka wa ilaaha aabaaa'ika Ibraaheema wa Ismaa'eela wa Ishaaqa Ilaahanw waahidanw wa nahnu lahoo muslimoon`,
+      commentary: {
+        context: "Ya'qub sur son lit de mort demande à ses fils : « Qu'adorerez-vous après moi ? » Ils répondent : « Un Dieu unique, et nous Lui sommes soumis. » Preuve que tous les prophètes étaient sur le tawhid et l'islam.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -624,6 +1068,11 @@ export const hizb02: Hizb = {
       textArabic: `تِلْكَ أُمَّةٌۭ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ`,
       textFrench: `Voilà une génération bel et bien révolue. A elle ce qu'elle a acquis, et à vous ce que vous avez acquis. On ne vous demandera pas compte de ce qu'ils faisaient.`,
       transliteration: `Tilka ummatun qad khalat lahaa maa kasabat wa lakum maa kasabtum wa laa tus'aloona 'ammaa kaano ya'maloon`,
+      commentary: {
+        context: "Principe de responsabilité individuelle : cette communauté est passée, à elle ses œuvres et à vous les vôtres. Vous ne serez pas interrogés sur ce qu'ils faisaient. Chacun est responsable de ses actes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -634,6 +1083,11 @@ export const hizb02: Hizb = {
       textArabic: `وَقَالُوا۟ كُونُوا۟ هُودًا أَوْ نَصَٰرَىٰ تَهْتَدُوا۟ ۗ قُلْ بَلْ مِلَّةَ إِبْرَٰهِۦمَ حَنِيفًۭا ۖ وَمَا كَانَ مِنَ ٱلْمُشْرِكِينَ`,
       textFrench: `Ils ont dit : «Soyez Juifs ou Chrétiens, vous serez donc sur la bonne voie». - Dis: «Non, mais nous suivons la religion d'Abraham le modèle même de la droiture et qui ne fut point parmi les Associateurs».`,
       transliteration: `Wa qaaloo koonoo Hoodan aw Nasaaraa tahtadoo; qul bal Millata Ibraaheema Haneefanw wa maa kaana minal mushrikeen`,
+      commentary: {
+        context: "Chacun dit : « Soyez juifs ou chrétiens pour être guidés. » Réponse : « Non ! La voie d'Ibrahim, le hanif (monothéiste pur), et il n'était pas des associateurs. » Ibrahim est revendiqué comme référence contre les deux groupes.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -644,6 +1098,19 @@ export const hizb02: Hizb = {
       textArabic: `قُولُوٓا۟ ءَامَنَّا بِٱللَّهِ وَمَآ أُنزِلَ إِلَيْنَا وَمَآ أُنزِلَ إِلَىٰٓ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطِ وَمَآ أُوتِىَ مُوسَىٰ وَعِيسَىٰ وَمَآ أُوتِىَ ٱلنَّبِيُّونَ مِن رَّبِّهِمْ لَا نُفَرِّقُ بَيْنَ أَحَدٍۢ مِّنْهُمْ وَنَحْنُ لَهُۥ مُسْلِمُونَ`,
       textFrench: `Dites: «Nous croyons en Allah et en ce qu'on nous a révélé, et en ce qu'on a fait descendre vers Abraham et Ismaël et Isaac et Jacob et les Tribus, et en ce qui a été donné à Moïse et à Jésus, et en ce qui a été donné aux prophètes, venant de leur Seigneur: nous ne faisons aucune distinction entre eux. Et à Lui nous sommes Soumis».`,
       transliteration: `Qoolooo aamannaa billaahi wa maaa unzila ilainaa wa maaa unzila ilaaa Ibraaheema wa Ismaa'eela wa Ishaaqa wa Ya'qooba wal Asbaati wa maaootiya Moosa wa 'Eesaa wa maaa ootiyan Nabiyyoona mir Rabbihim laa nufaariq baina ahadim minhum wa nahnu lahoo muslimoon`,
+      commentary: {
+        context: "Verset clé définissant la foi musulmane : croire en Allah, en ce qui a été révélé à tous les prophètes (Ibrahim, Ismaïl, Isaac, Ya'qub, les Tribus, Moïse, Jésus et tous les prophètes) sans distinction entre aucun d'eux. C'est la spécificité de l'islam : l'acceptation de tous les prophètes.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset résume la croyance islamique envers les prophètes : nous croyons en tous sans exception, et nous ne faisons de distinction entre aucun d'eux (contrairement aux Juifs qui rejettent Jésus et Muhammad, et aux Chrétiens qui rejettent Muhammad). La foi en tous les prophètes est un pilier fondamental de l'islam. « Nous leur sommes soumis (muslimun) » : la soumission à Allah est le dénominateur commun de tous les prophètes.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 136",
+          },
+        ],
+        nuances: [
+          "« Laa nufarriqu bayna ahadin minhum » (nous ne distinguons entre aucun d'eux) : cela signifie ne pas croire en certains et rejeter d'autres. Cela ne signifie pas que tous les prophètes sont au même degré — certains sont plus élevés que d'autres (2:253).",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -654,6 +1121,11 @@ export const hizb02: Hizb = {
       textArabic: `فَإِنْ ءَامَنُوا۟ بِمِثْلِ مَآ ءَامَنتُم بِهِۦ فَقَدِ ٱهْتَدَوا۟ ۖ وَّإِن تَوَلَّوْا۟ فَإِنَّمَا هُمْ فِى شِقَاقٍۢ ۖ فَسَيَكْفِيكَهُمُ ٱللَّهُ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ`,
       textFrench: `Alors, s'ils croient à cela même à quoi vous croyez, ils seront certainement sur la bonne voie. Et s'ils s'en détournent, ils seront certes dans le schisme! Alors Allah te suffira contre eux. Il est l'Audient, l'Omniscient.`,
       transliteration: `Fa in aamanoo bimisli maaa aamantum bihee faqadih tadaw wa in tawallaw fa innamaa hum fee shiqaaq; fasayakfeekahumul laah; wa Huwas Samee'ul Aleem`,
+      commentary: {
+        context: "S'ils croient comme vous croyez, ils seront guidés. S'ils se détournent, ils ne sont que dans le schisme (shiqaq). Allah te suffira contre eux — Il est l'Audient, l'Omniscient.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -664,6 +1136,25 @@ export const hizb02: Hizb = {
       textArabic: `صِبْغَةَ ٱللَّهِ ۖ وَمَنْ أَحْسَنُ مِنَ ٱللَّهِ صِبْغَةًۭ ۖ وَنَحْنُ لَهُۥ عَٰبِدُونَ`,
       textFrench: `«Nous suivons la religion d'Allah! Et qui est meilleur qu'Allah en Sa religion? C'est Lui que nous adorons».`,
       transliteration: `Sibghatal laahi wa man ahsanu minal laahi sibghatanw wa nahnu lahoo 'aabidoon`,
+      commentary: {
+        context: "Verset clé sur la « sibgha » (teinture/empreinte) d'Allah : la religion d'Allah teint le croyant intérieurement et extérieurement, comme un tissu prend la couleur dans laquelle il est plongé. Réponse au baptême chrétien : la vraie « teinture » est la foi pure (fitra).",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "La « sibghat Allah » est la religion d'Allah (din Allah) : la foi islamique qui teint le cœur du croyant et se manifeste dans ses actes. C'est la fitra sur laquelle Allah a créé les hommes. « Qui est meilleur qu'Allah en matière de teinture ? » : question rhétorique — aucune religion humaine ne vaut celle qu'Allah a prescrite. Les Chrétiens baptisent (plongent dans l'eau) leurs enfants en pensant les purifier ; Allah répond que la vraie purification est Sa religion.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 138",
+          },
+          {
+            scholar: "Ibn Kathir",
+            text: "Ibn 'Abbas, Mujahid et d'autres ont dit : « sibghat Allah » signifie « din Allah » (la religion d'Allah). Ce terme est utilisé en opposition au baptême chrétien (sibgha) : les Chrétiens plongeaient leurs nouveau-nés dans l'eau baptismale pour les « purifier ». Allah dit : Notre « teinture » à nous est Sa religion, qui pénètre le cœur et l'être entier, pas un simple rituel extérieur. « Wa nahnu lahu 'abidun » : et nous Lui sommes dévoués dans l'adoration.",
+            source: "Tafsir al-Qur'an al-'Azim, Al-Baqara, verset 138",
+          },
+        ],
+        nuances: [
+          "Le mot « sibgha » (صِبْغَة) vient de la racine ص-ب-غ (teindre). Les exégètes sont unanimes : il désigne ici la religion d'Allah (din Allah). L'analogie est éloquente : comme la teinture pénètre le tissu en profondeur et change sa couleur, la foi authentique pénètre le cœur et transforme l'être tout entier.",
+          "Ce verset est une réponse directe à la pratique du baptême chrétien. Le contraste est entre un rituel extérieur (eau) et une transformation intérieure (foi). La « sibgha » d'Allah est la fitra originelle (30:30).",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -674,6 +1165,11 @@ export const hizb02: Hizb = {
       textArabic: `قُلْ أَتُحَآجُّونَنَا فِى ٱللَّهِ وَهُوَ رَبُّنَا وَرَبُّكُمْ وَلَنَآ أَعْمَٰلُنَا وَلَكُمْ أَعْمَٰلُكُمْ وَنَحْنُ لَهُۥ مُخْلِصُونَ`,
       textFrench: `Dis: «Discutez vous avec nous au sujet d'Allah, alors qu'Il est notre Seigneur et le vôtre? A nous nos actions et à vous les vôtres! C'est à Lui que nous sommes dévoués.`,
       transliteration: `Qul atuhaaajjoonanaa fil laahi wa Huwa Rabbunaa wa Rabbukum wa lanaa a'maalunaa wa lakum a'maalukum wa nahnu lahoo mukhlisson`,
+      commentary: {
+        context: "Argument décisif contre les Gens du Livre : pourquoi disputez-vous au sujet d'Allah alors qu'Il est notre Seigneur à tous ? Chacun rendra compte de ses propres actes. La distinction du croyant : l'ikhlâs (sincérité exclusive envers Allah).",
+        tafsirReferences: [],
+        nuances: [],
+      },
     },
     {
       surahNumber: 2,
@@ -684,6 +1180,19 @@ export const hizb02: Hizb = {
       textArabic: `أَمْ تَقُولُونَ إِنَّ إِبْرَٰهِۦمَ وَإِسْمَٰعِيلَ وَإِسْحَٰقَ وَيَعْقُوبَ وَٱلْأَسْبَاطَ كَانُوا۟ هُودًا أَوْ نَصَٰرَىٰ ۗ قُلْ ءَأَنتُمْ أَعْلَمُ أَمِ ٱللَّهُ ۗ وَمَنْ أَظْلَمُ مِمَّن كَتَمَ شَهَٰدَةً عِندَهُۥ مِنَ ٱللَّهِ ۗ وَمَا ٱللَّهُ بِغَٰفِلٍ عَمَّا تَعْمَلُونَ`,
       textFrench: `Ou dites-vous qu'Abraham, Ismaël, Isaac et Jacob et les tribus étaient Juifs ou Chrétiens?» - Dis: «Est-ce vous les plus savants ou Allah?» - Qui est plus injuste que celui qui cache un témoignage qu'il détient d'Allah? Et Allah n'est pas inattentif à ce que vous faites.`,
       transliteration: `Am taqooloona inna Ibraaheema wa Ismaa'eela wa Ishaaq wa Ya'qooba wal asbaata kaanoo Hoodan aw Nasaaraa; qul 'a-antum a'lamu amil laah; wa man azlamu mimman katama shahaadatan 'indahoo minallaah; wa mallaahu bighaafilin 'ammaa ta'maloon`,
+      commentary: {
+        context: "Réfutation cinglante : prétendez-vous qu'Ibrahim, Ismaïl, Isaac, Ya'qub et les Tribus étaient juifs ou chrétiens ? Le judaïsme et le christianisme sont apparus bien après eux. Dissimuler ce témoignage d'Allah (que les prophètes étaient « muslimun ») est la pire injustice.",
+        tafsirReferences: [
+          {
+            scholar: "As-Sa'di",
+            text: "Ce verset réfute la prétention des Juifs et des Chrétiens de s'attribuer Ibrahim et les patriarches. Allah leur pose une question rhétorique imparable : « Êtes-vous plus savants ou Allah ? » — et Allah a témoigné qu'Ibrahim n'était ni juif ni chrétien mais hanif muslim (3:67). Celui qui cache ce témoignage divin commet la pire injustice (azlam), car il dissimule la vérité tout en la connaissant.",
+            source: "Taysir al-Karim ar-Rahman, Al-Baqara, verset 140",
+          },
+        ],
+        nuances: [
+          "Argument chronologique décisif : la Torah a été révélée à Moïse et l'Évangile à Jésus, bien après Ibrahim. Comment Ibrahim pourrait-il être juif ou chrétien alors que ces religions sont venues après lui ? C'est l'argument de 3:65 : « Pourquoi disputez-vous au sujet d'Ibrahim alors que la Torah et l'Évangile n'ont été révélés qu'après lui ? »",
+        ],
+      },
     },
     {
       surahNumber: 2,
@@ -694,6 +1203,11 @@ export const hizb02: Hizb = {
       textArabic: `تِلْكَ أُمَّةٌۭ قَدْ خَلَتْ ۖ لَهَا مَا كَسَبَتْ وَلَكُم مَّا كَسَبْتُمْ ۖ وَلَا تُسْـَٔلُونَ عَمَّا كَانُوا۟ يَعْمَلُونَ`,
       textFrench: `Voilà une génération bel et bien révolue. A elle ce qu'elle a acquis, et à vous ce que vous avez acquis. Et on ne vous demandera pas compte de ce qu'ils faisaient.`,
       transliteration: `Tilka ummatun qad khalat lahaa maa kasabat wa lakum maa kasabtum wa laa tus'aloona 'ammaa kaano ya'maloo`,
+      commentary: {
+        context: "Conclusion identique à 2:134, répétée pour insister : cette communauté (les ancêtres) est révolue. À elle ses actes, à vous les vôtres. Vous ne serez pas interrogés sur ce qu'ils faisaient — chacun ne rendra compte que de lui-même.",
+        tafsirReferences: [],
+        nuances: [],
+      },
     }
   ],
   // synthesis: non disponible — sera enrichi progressivement, insha'Allah.
